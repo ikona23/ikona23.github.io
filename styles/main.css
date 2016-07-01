@@ -83,7 +83,7 @@ p {
   font-size: 1.2em;
 }
 .box {
-  width:400px;
+  width:300px;
   background-color: #226666;
   font-family: "sutro-deluxe-primary",sans-serif;
   color:white;
@@ -93,7 +93,7 @@ p {
   margin: 10% 0 0 20%;
 }
 .box2 {
-  width:400px;
+  width:300px;
   background-color: #16a085;
   color:white;
   padding: 20px;
