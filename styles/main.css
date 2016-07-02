@@ -4,22 +4,27 @@ body {
   font-weight:300;
 }
 .container {
-  width: 75%;
+  width: 70%;
   margin:25px auto;
-  background: #0a4d3f;
+  background: white;
   padding: 30px;
 }
+
+.wrapper {
+  width: 100%;
+}
+
 .container.p {
   font-size:2em;
 }
-
 .logo {
   color:white;
   padding:0.3em 0 0 0.3em;
   font-size:1.5em;
 }
 .blog {
-  height: 600px;
+  height: 500px;
+  background: #517F7F;
 }
 /*navigation*/
 ul {
@@ -66,7 +71,7 @@ li.dropdown {
     display: block;
 }
 .headline {
-  color: white;
+  color: rgb(19, 7, 10);
   font-size: 30px;
 }
 /*end of the navigation*/
@@ -76,14 +81,14 @@ cite {
     font-family: lato-light;
     font-weight:300;
     font-size: 1.2em;
-    color: yellow;
+    color: rgb(22, 22, 22);
 }
 p {
-  color:white;
+  color:rgb(25, 25, 26);
   font-size: 1.2em;
 }
 .box {
-  width:300px;
+  width:20%;
   background-color: #226666;
   font-family: "sutro-deluxe-primary",sans-serif;
   color:white;
@@ -93,7 +98,7 @@ p {
   margin: 10% 0 0 20%;
 }
 .box2 {
-  width:300px;
+  width:20%;
   background-color: #16a085;
   color:white;
   padding: 20px;
@@ -109,10 +114,6 @@ p {
 
 .mheader {
   text-align: center;
-}
-
-.sprint1 {
- width:100%;
 }
 
 footer {
