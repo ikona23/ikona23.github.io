@@ -121,3 +121,7 @@ footer {
   text-align: center;
   padding:1em;
 }
+
+footer.p {
+  color:rgb(73, 74, 73);
+}
