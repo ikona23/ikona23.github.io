@@ -87,7 +87,7 @@ p {
   color:rgb(25, 25, 26);
   font-size: 1.2em;
 }
-.box {
+.reflec {
   width:20%;
   background-color: #226666;
   font-family: "sutro-deluxe-primary",sans-serif;
@@ -97,7 +97,7 @@ p {
   float:left;
   margin: 10% 0 0 20%;
 }
-.box2 {
+.hab {
   width:20%;
   background-color: #16a085;
   color:white;
