@@ -1,6 +1,16 @@
 body {
   font-family: lato;
   font-weight:300;
+  /*background-image: url("/img/bg.gif");
+  background-repeat: no-repeat;
+  background-position:center;*/
+  font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mheader {
+    font-family: Lato-light;
+    font-size: 61px;
+    font-weight: 500;
 }
 .container {
   width: 70%;
@@ -9,21 +19,17 @@ body {
   padding: 30px;
 }
 
-.wrapper {
-  width: 100%;
+.menu {
+  float:right;
+  margin: -70px 140px 0 0;
 }
 
-.container.p {
-  font-size:2em;
-}
-.logo {
-  color:white;
-  padding:0.3em 0 0 0.3em;
-  font-size:1.5em;
-}
-.blog {
-  height: 500px;
-  background: #517F7F;
+a.logo img{
+  display: block;
+  float:left;
+  margin: 20px 0 0 140px;
+  width: 70px;
+  height: 70px;
 }
 /*navigation*/
 ul {
@@ -33,15 +39,17 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-li {
-    float: left;
-}
+
 li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
+    font-size: 1.5em;
     text-decoration: none;
+    width:200px;
+    height:50px;
+    transition: all .1s ease-in-out;
 }
 li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(144, 144, 144);
@@ -75,6 +83,34 @@ li.dropdown {
 }
 /*end of the navigation*/
 
+.wrapper {
+  width: 100%;
+}
+
+.container.p {
+  font-size:2em;
+}
+.logo {
+  display:flex;
+}
+
+.blog {
+  display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row /* works with row or column */
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.blogs {
+  flex-wrap:wrap;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid transparent;
+}
 /*blog pages*/
 cite {
     font-family: lato-light;
@@ -82,28 +118,17 @@ cite {
     font-size: 1.2em;
     color: rgb(22, 22, 22);
 }
+
 p {
-  color:rgb(25, 25, 26);
   font-size: 1.2em;
 }
-.reflec {
-  width:20%;
-  background-color: #226666;
-  font-family: "sutro-deluxe-primary",sans-serif;
-  color:white;
-  font-size: 1.5em;
-  padding: 20px;
-  float:left;
-  margin: 10% 0 0 20%;
-}
-.hab {
-  width:20%;
-  background-color: #16a085;
-  color:white;
-  padding: 20px;
-  font-size: 1.5em;
-  float:right;
-  margin: 10% 20% 0 0;
+
+.bout {
+  width:50%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .line {
