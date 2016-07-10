@@ -177,6 +177,8 @@ li.dropdown {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .blogs {
   flex-wrap:wrap;
