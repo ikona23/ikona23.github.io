@@ -1,16 +1,96 @@
+.clearfix {
+  overflow: auto;
+}
+body, html {
+  height: 100%;
+}
+article {
+  text-align: center;
+}
 body {
   font-family: lato;
   font-weight:300;
   /*background-image: url("/img/bg.gif");
   background-repeat: no-repeat;
   background-position:center;*/
-  font-family: 'Open Sans', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Lato;
+}
+.blogcontainr {
+  text-align:center;
+}
+.bricks {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid rgb(175, 172, 172);
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+.social {
+  background: rgb(39, 43, 62);
+  height:400px;
+  margin-top: 20px;
+}
+.mheader {
+  font-family: Lato-light;
+  font-size: 61px;
+  font-weight: 500;
+}
+.tmlheader {
+  font-size:1em;
+  padding-top:2%;
+  text-align: center;
+
+}
+code.cssimage {
+  padding-right: 10px;
 }
 
-.mheader {
-    font-family: Lato-light;
-    font-size: 61px;
-    font-weight: 500;
+.domplans {
+  width:300px;
+  clear:both;
+  border: 2px solid rgb(175, 172, 172);
+  margin:0 10px 0 0;
+  display: block;
+  padding: 10px;
+  float:left;
+}
+section.boxdesign {
+  clear: both;
+}
+.der {
+  font-size:2em;
+  padding-top:2%;
+}
+.cssheader {
+  font-size:2em;
+  padding-top:2%;
+  text-align: center;
+}
+.domheader {
+  font-size: 2em;
+  padding-top: 5%;
+  text-align: center;
+}
+section.explcss {
+  height: 300px;
+}
+.pallet {
+  width: 200px;
+  float: right;
+  padding: 10px;
+  border: 2px solid rgb(175, 172, 172);
+  margin:0 10px 0 0;
+}
+.grid {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(175, 172, 172);
+  padding: 10px;
+
 }
 .container {
   width: 70%;
@@ -18,12 +98,10 @@ body {
   background: white;
   padding: 30px;
 }
-
 .menu {
   float:right;
   margin: -70px 140px 0 0;
 }
-
 a.logo img{
   display: block;
   float:left;
@@ -33,49 +111,50 @@ a.logo img{
 }
 /*navigation*/
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-
 li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 1.5em;
-    text-decoration: none;
-    width:200px;
-    height:50px;
-    transition: all .1s ease-in-out;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 1.2em;
+  text-decoration: none;
+  width:200px;
+  height:50px;
+  transition: all .1s ease-in-out;
+  font-family: Lato;
+font-weight: 100;
 }
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(144, 144, 144);
+  background-color: rgb(144, 144, 144);
 }
 li.dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 .headline {
   color: rgb(19, 7, 10);
@@ -85,26 +164,25 @@ li.dropdown {
 
 .wrapper {
   width: 100%;
+  margin: 0px auto;
+  overflow: hidden;
 }
-
 .container.p {
   font-size:2em;
 }
 .logo {
   display:flex;
 }
-
 .blog {
   display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row /* works with row or column */
-    flex-direction: row;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
+  display: flex;
+  -webkit-flex-direction: row /* works with row or column */
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
-
 .blogs {
   flex-wrap:wrap;
   border-left: 5px solid transparent;
@@ -113,40 +191,38 @@ li.dropdown {
 }
 /*blog pages*/
 cite {
-    font-family: lato-light;
-    font-weight:300;
-    font-size: 1.2em;
-    color: rgb(22, 22, 22);
+  font-family: lato-light;
+  font-weight:300;
+  font-size: 1.2em;
+  color: rgb(22, 22, 22);
 }
-
 p {
   font-size: 1.2em;
 }
-
 .bout {
   width:50%;
   text-align: center;
   display: block;
+  font-weight: 100;
   margin-left: auto;
   margin-right: auto;
+  font-family: lato;
 }
-
 .line {
   width: 30%;
   text-align: center;
 }
-
 .mheader {
   text-align: center;
+  font-weight: 100;
+  font-family:lato;
 }
-
 footer {
-  margin-top: 250px;
   background: rgb(48, 51, 50);
   text-align: center;
   padding:1em;
+  color: gray;
 }
-
 footer.p {
   color:rgb(73, 74, 73);
 }
