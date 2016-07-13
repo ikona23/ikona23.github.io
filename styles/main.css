@@ -226,6 +226,7 @@ footer.p {
   margin-top: 20px;
   display: flex;
    flex-direction: column;
+   background: gray;
 
 }
 .flexcontainer {
@@ -237,14 +238,12 @@ footer.p {
    align-items: center;
    -webkit-justify-content: center;
    justify-content: center;
-   flex-shrink: 2;
 }
-img.icons {
-    width: 7%;
+.usol {
+  flex-grow: 1;
 }
 
-
-/*.triangel {
+.triangel {
   margin-left:auto;
   margin-right:auto;
 width: 0;
@@ -252,4 +251,4 @@ height: 0;
 border-style: solid;
 border-width: 50px 60px 0 60px;
 border-color: #ffffff transparent transparent transparent;
-}*/
+}
