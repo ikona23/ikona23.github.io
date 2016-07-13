@@ -47,6 +47,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/blog\/t3-design-to-web-blog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/t3-design-to-web-blog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/ape.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -54,6 +63,17 @@
 		"initialSize": 569794,
 		"inputAbbreviatedPath": "\/img\/ape.jpg",
 		"outputAbbreviatedPath": "\/img\/ape.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/code.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3865,
+		"inputAbbreviatedPath": "\/img\/code.png",
+		"outputAbbreviatedPath": "\/img\/code.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -91,6 +111,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2986,
+		"inputAbbreviatedPath": "\/img\/github.png",
+		"outputAbbreviatedPath": "\/img\/github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/home.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -109,6 +140,17 @@
 		"initialSize": 16974,
 		"inputAbbreviatedPath": "\/img\/html.jpg",
 		"outputAbbreviatedPath": "\/img\/html.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2736,
+		"inputAbbreviatedPath": "\/img\/mail.png",
+		"outputAbbreviatedPath": "\/img\/mail.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -142,6 +184,72 @@
 		"initialSize": 6885,
 		"inputAbbreviatedPath": "\/img\/pklogo.png",
 		"outputAbbreviatedPath": "\/img\/pklogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wireframe-blog-page-desktop-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 238691,
+		"inputAbbreviatedPath": "\/img\/wireframe-blog-page-desktop-box.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-blog-page-desktop-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wireframe-blog-page-desktop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 196324,
+		"inputAbbreviatedPath": "\/img\/wireframe-blog-page-desktop.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-blog-page-desktop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wireframe-blog-page-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17729,
+		"inputAbbreviatedPath": "\/img\/wireframe-blog-page-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-blog-page-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wireframe-index-page-desktop-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255116,
+		"inputAbbreviatedPath": "\/img\/wireframe-index-page-desktop-box.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-index-page-desktop-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wireframe-index-page-desktop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258304,
+		"inputAbbreviatedPath": "\/img\/wireframe-index-page-desktop.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-index-page-desktop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wireframe-index-page-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26600,
+		"inputAbbreviatedPath": "\/img\/wireframe-index-page-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-index-page-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
