@@ -210,6 +210,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/wireframe-blog-page-mobile-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81082,
+		"inputAbbreviatedPath": "\/img\/wireframe-blog-page-mobile-box.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-blog-page-mobile-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/wireframe-blog-page-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -239,6 +250,17 @@
 		"initialSize": 258304,
 		"inputAbbreviatedPath": "\/img\/wireframe-index-page-desktop.jpg",
 		"outputAbbreviatedPath": "\/img\/wireframe-index-page-desktop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wireframe-index-page-mobile-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46488,
+		"inputAbbreviatedPath": "\/img\/wireframe-index-page-mobile-box.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-index-page-mobile-box.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
