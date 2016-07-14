@@ -197,13 +197,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/wireframe-blog-page-desktop-box.jpg": {
+	"\/img\/temp.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 238691,
-		"inputAbbreviatedPath": "\/img\/wireframe-blog-page-desktop-box.jpg",
-		"outputAbbreviatedPath": "\/img\/wireframe-blog-page-desktop-box.jpg",
+		"initialSize": 10501,
+		"inputAbbreviatedPath": "\/img\/temp.jpg",
+		"outputAbbreviatedPath": "\/img\/temp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wireframe-blog-page-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258461,
+		"inputAbbreviatedPath": "\/img\/wireframe-blog-page-box.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-blog-page-box.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -241,6 +252,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/wireframe-index-desktop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165836,
+		"inputAbbreviatedPath": "\/img\/wireframe-index-desktop.jpg",
+		"outputAbbreviatedPath": "\/img\/wireframe-index-desktop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/wireframe-index-page-desktop-box.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -248,17 +270,6 @@
 		"initialSize": 255116,
 		"inputAbbreviatedPath": "\/img\/wireframe-index-page-desktop-box.jpg",
 		"outputAbbreviatedPath": "\/img\/wireframe-index-page-desktop-box.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/wireframe-index-page-desktop.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 258304,
-		"inputAbbreviatedPath": "\/img\/wireframe-index-page-desktop.jpg",
-		"outputAbbreviatedPath": "\/img\/wireframe-index-page-desktop.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
