@@ -1,21 +1,25 @@
 body {
   font-family: Lato;
-  background: rgb(23, 57, 133);
-  width:100%;
+background: rgb(60, 57, 56)
 }
 .container {
   background: rgb(19, 113, 85);
   text-align: center;
 }
+hr {
+  width:50rem;
+}
 
 .title {
   text-align: center;
 }
-.row.carts {
+.section.hero {
 
   text-align: center;
-  background-image: url("img/month.png");
-  background: rgb(224, 53, 185);
+  background-image: url("../img/month.png");
+  background-size: cover;
+  height:50rem;
+  /*background: rgb(224, 53, 185);*/
 }
 .top {
   text-align: center;
