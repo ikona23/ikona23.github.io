@@ -1,6 +1,6 @@
 body {
   font-family: Lato;
-  background: rgb(60, 57, 56);
+
   font-family: Lato, Helvetica, sans-serif;
 }
 .container {
@@ -9,6 +9,9 @@ body {
 }
 hr {
   width:50rem;
+}
+.pklogo {
+  width:10%;
 }
 
 .title {
@@ -32,4 +35,5 @@ a.six.columns.right {
 }
 .three.columns {
   background: rgb(156, 32, 62);
+  height: 10em;
 }
