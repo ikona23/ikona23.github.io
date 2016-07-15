@@ -4,7 +4,8 @@ body {
   width:100%;
 }
 .container {
-  background: rgb(23, 133, 100);
+  background: rgb(19, 113, 85);
+  text-align: center;
 }
 
 .title {
@@ -13,17 +14,18 @@ body {
 .row.carts {
 
   text-align: center;
-  background: white;
+  background-image: url("img/month.png");
+  background: rgb(224, 53, 185);
 }
 .top {
   text-align: center;
-}
-img.menu{
-  text-align: right;
 }
 a.six.columns.left {
     text-align: left;
 }
 a.six.columns.right {
     text-align: right;
+}
+.three.columns {
+  background: rgb(156, 32, 62);
 }
