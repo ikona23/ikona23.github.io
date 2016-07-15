@@ -1,6 +1,7 @@
 body {
   font-family: Lato;
-background: rgb(60, 57, 56)
+  background: rgb(60, 57, 56);
+  font-family: Lato, Helvetica, sans-serif;
 }
 .container {
   background: rgb(19, 113, 85);
@@ -32,4 +33,7 @@ a.six.columns.right {
 }
 .three.columns {
   background: rgb(156, 32, 62);
+}
+.fa-5x {
+  color: white;
 }
