@@ -37,4 +37,8 @@ a.six.columns.right {
   background: rgb(156, 32, 62);
   height: 10em;
   background-image: url("../img/month.png");
+  transition: all .2s ease-in-out;
+}
+.three.columns:hover {
+  transform: scale(1.1);
 }
