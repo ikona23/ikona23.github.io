@@ -36,13 +36,15 @@ a.six.columns.right {
     text-align: right;
 }
 .three.columns {
-  background: rgb(51, 51, 51);
+  background: white;
   border: 2px solid rgb(175, 172, 172);
   height: 10em;
   transition: all .2s ease-in-out;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .three.columns:hover {
   transform: scale(1.1);
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 /*navigation*/
 ul {
@@ -63,7 +65,7 @@ li a, .dropbtn {
   height:50px;
   transition: all .1s ease-in-out;
   font-family: Lato;
-font-weight: 100;
+  font-weight: 100;
 }
 li a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(144, 144, 144);
@@ -111,7 +113,7 @@ li.dropdown {
 }
 .three.columns.blog {
   margin-top:5rem;
-  background-color: rgb(156, 32, 62);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   height: 10em;
 
   transition: all .2s ease-in-out;
@@ -135,6 +137,6 @@ h1.featureblogs {
 }
 .cartslinks {
   text-decoration: none;
-  color: white;
+  color: rgb(57, 41, 19);
   font-weight: 300;
 }
