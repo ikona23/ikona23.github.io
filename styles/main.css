@@ -2,3 +2,19 @@
 .title {
   text-align: center;
 }
+.row carts {
+  padding: 0 20px;
+  text-align: center;
+}
+.top {
+  text-align: center;
+}
+img.menu{
+  text-align: right;
+}
+a.six.columns.left {
+    text-align: left;
+}
+a.six.columns.right {
+    text-align: right;
+}
