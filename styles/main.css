@@ -1,10 +1,19 @@
+body {
+  font-family: Lato;
+  background: rgb(23, 57, 133);
+  width:100%;
+}
+.container {
+  background: rgb(23, 133, 100);
+}
 
 .title {
   text-align: center;
 }
-.row carts {
-  padding: 0 20px;
+.row.carts {
+
   text-align: center;
+  background: white;
 }
 .top {
   text-align: center;
