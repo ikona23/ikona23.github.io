@@ -37,3 +37,47 @@ a.six.columns.right {
 .fa-5x {
   color: white;
 }
+#logo:hover .st0{
+  fill:#a3180a;
+  transition: .9s;
+}
+#logo {
+  cursor:pointer;
+  width:10%;
+}
+$logo.clickit .st0 {
+  fill:#ee1414;
+}
+ .st0{
+  stroke-dasharray:2900;
+  stroke-dashoffset:0;
+  -webkit-animation: dash 3s linear forwards;
+  -moz-animation: dash 3s linear forwards;
+  -o-animation: dash 3s linear forwards;
+  animation: dash 4s linear forwards;
+   fill:white;stroke:#000000;stroke-width:3;stroke-miterlimit:5;
+   transform: rotate($start);
+ }
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset:2900;
+  }
+  to {
+    stroke-dashoffset:0;
+  }
+}
+svg{
+  width:10%;
+  height:10%;
+  display:block;
+  -webkit-filter: drop-shadow( 0px 0px 5px gray );
+          filter: drop-shadow( 0px 0px 5px gray );
+  transition:1s;
+}
+svg:hover{
+  -webkit-filter: drop-shadow( 0px 20px 15px white );
+          filter: drop-shadow( 0px 20px 15px white);
+}
+.container {
+  background-color:#2980b9;
+}
