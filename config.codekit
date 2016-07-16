@@ -85,6 +85,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/behance.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2289,
+		"inputAbbreviatedPath": "\/img\/behance.png",
+		"outputAbbreviatedPath": "\/img\/behance.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/blogbackground.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -279,6 +290,17 @@
 		"initialSize": 2395,
 		"inputAbbreviatedPath": "\/img\/portfolio.png",
 		"outputAbbreviatedPath": "\/img\/portfolio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sound.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2761,
+		"inputAbbreviatedPath": "\/img\/sound.png",
+		"outputAbbreviatedPath": "\/img\/sound.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

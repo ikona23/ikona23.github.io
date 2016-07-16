@@ -38,7 +38,7 @@ a.six.columns.left {
 a.six.columns.right {
     text-align: right;
 }
-.three.columns {
+.three.columns.bout{
   background: white;
   border: 3px solid rgb(46, 44, 44);
   height: 14em;
@@ -51,7 +51,7 @@ a.six.columns.right {
   background-color: rgba(245, 245, 245, 1);
 }
 
-.three.columns:hover {
+.three.columns.bout:hover {
   transform: scale(1.1);
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -146,5 +146,13 @@ h1.featureblogs {
 .cartslinks:hover{
  font-weight: 600;
  color:rgb(34, 8, 8);
+}
 
+.headersocial{
+  color:white;
+}
+footer {
+  width:50rem;
+  color:white;
+  background: rgb(43, 47, 78)
 }
