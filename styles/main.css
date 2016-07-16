@@ -40,9 +40,25 @@ a.six.columns.right {
   background: white;
   border: 2px solid rgb(175, 172, 172);
   height: 10em;
+  padding-top: 2rem;
   transition: all .2s ease-in-out;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   display:block;
+  background-image: url("../img/pen.png");
+  background-size: cover;
+  background-color: rgba(245, 245, 245, 1);
+}
+.three.columns.bout {
+  background: white;
+  border: 2px solid rgb(175, 172, 172);
+  height: 10em;
+  padding-top: 2rem;
+  transition: all .2s ease-in-out;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display:block;
+  background-image: url("../img/boutme.png");
+  background-size: cover;
+  /*background-color: rgba(60, 246, 5, 0.42);*/
 }
 .three.columns:hover {
   transform: scale(1.1);

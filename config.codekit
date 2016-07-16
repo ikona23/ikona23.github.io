@@ -96,6 +96,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/boutme.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2345,
+		"inputAbbreviatedPath": "\/img\/boutme.png",
+		"outputAbbreviatedPath": "\/img\/boutme.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/code.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -213,6 +224,17 @@
 		"initialSize": 7168,
 		"inputAbbreviatedPath": "\/img\/orange.jpg",
 		"outputAbbreviatedPath": "\/img\/orange.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4937,
+		"inputAbbreviatedPath": "\/img\/pen.png",
+		"outputAbbreviatedPath": "\/img\/pen.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
