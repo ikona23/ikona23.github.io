@@ -1,7 +1,7 @@
 body {
   font-family: Lato, Helvetica, sans-serif;
   background-color: #544839;
-    background-image: url("../img/blogbackground.png");
+  background-image: url("../img/blogbackground.png");
 }
 .container {
   text-align: center;
@@ -14,6 +14,7 @@ hr {
 }
 .title {
   text-align: center;
+  color: white;
 }
 .section.hero.blog{
   text-align: center;
@@ -39,11 +40,11 @@ a.six.columns.right {
 }
 .three.columns {
   background: white;
-  border: 2px solid rgb(175, 172, 172);
+  border: 3px solid rgb(46, 44, 44);
   height: 14em;
   padding-top: 2rem;
   transition: all .2s ease-in-out;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.45);
   display:block;
   /*background-image: url("../img/pen.png");
   background-size: cover;*/
@@ -115,7 +116,7 @@ li.dropdown {
 }
 .three.columns.blog {
   margin-top:5rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   height: 10em;
   transition: all .2s ease-in-out;
 }
@@ -130,11 +131,11 @@ h1.featureblogs {
   text-align:center;
 }
 .featuCart {
-  font-size: 1em;
+  font-size: 2em;
   text-decoration: none;
 }
 .featuCart a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .cartslinks {
   text-decoration: none;

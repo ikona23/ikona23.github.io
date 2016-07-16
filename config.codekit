@@ -107,6 +107,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/boutus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2632,
+		"inputAbbreviatedPath": "\/img\/boutus.png",
+		"outputAbbreviatedPath": "\/img\/boutus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/code.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -228,6 +239,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/paperplane.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1558,
+		"inputAbbreviatedPath": "\/img\/paperplane.png",
+		"outputAbbreviatedPath": "\/img\/paperplane.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pen.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -246,6 +268,17 @@
 		"initialSize": 6885,
 		"inputAbbreviatedPath": "\/img\/pklogo.png",
 		"outputAbbreviatedPath": "\/img\/pklogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/portfolio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2395,
+		"inputAbbreviatedPath": "\/img\/portfolio.png",
+		"outputAbbreviatedPath": "\/img\/portfolio.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
