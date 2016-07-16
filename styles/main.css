@@ -1,6 +1,7 @@
 body {
   font-family: Lato, Helvetica, sans-serif;
   background-color: #544839;
+    background-image: url("../img/blogbackground.png");
 }
 .container {
   text-align: center;
