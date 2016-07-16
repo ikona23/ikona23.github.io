@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 hr {
-  width:50rem;
+  width:40%;
 }
 .pklogo {
   width:6.5rem;
@@ -16,6 +16,7 @@ hr {
 }
 .section.hero.blog{
   text-align: center;
+  background-color: rgb(218, 101, 101);
   background-image: url("../img/blogbackground.png");
   background-size: cover;
 }
@@ -24,7 +25,7 @@ hr {
   background-color: rgb(224, 157, 79);
   background-image: url("../img/blogbackground.png");
   background-size: cover;
-  height:50rem;
+  height:40rem;
 }
 .top {
   text-align: center;
@@ -35,12 +36,20 @@ a.six.columns.left {
 a.six.columns.right {
     text-align: right;
 }
+.hero-image{
+  text-align: center;
+  background-color: rgb(224, 157, 79);
+  /*background-image: url("../img/blogbackground.png");*/
+  background-size: cover;
+
+}
 .three.columns {
   background: white;
   border: 2px solid rgb(175, 172, 172);
   height: 10em;
   transition: all .2s ease-in-out;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display:block;
 }
 .three.columns:hover {
   transform: scale(1.1);
