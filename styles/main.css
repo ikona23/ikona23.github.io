@@ -29,6 +29,9 @@ hr {
   background-size: cover;
   height:40rem;
 }
+img.scale-with-grid-wire {
+    width: 80%;
+}
 .top {
   text-align: center;
 }
@@ -107,6 +110,7 @@ li.dropdown {
   color: rgb(19, 7, 10);
   font-size: 30px;
 }
+
 /*end of the navigation*/
 
 .blog {
@@ -154,4 +158,9 @@ footer {
   width:50rem;
   color:white;
   background: rgb(43, 47, 78)
+}
+.twelve.columns.wrap {
+  border-radius: .35rem;
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.075);
+  background-color: white;
 }
