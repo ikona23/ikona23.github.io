@@ -162,6 +162,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/design.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1673,
+		"inputAbbreviatedPath": "\/img\/design.png",
+		"outputAbbreviatedPath": "\/img\/design.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/dom.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -169,6 +180,17 @@
 		"initialSize": 26251,
 		"inputAbbreviatedPath": "\/img\/dom.jpg",
 		"outputAbbreviatedPath": "\/img\/dom.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ei.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1860,
+		"inputAbbreviatedPath": "\/img\/ei.png",
+		"outputAbbreviatedPath": "\/img\/ei.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -202,6 +224,28 @@
 		"initialSize": 16974,
 		"inputAbbreviatedPath": "\/img\/html.jpg",
 		"outputAbbreviatedPath": "\/img\/html.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/html.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1092,
+		"inputAbbreviatedPath": "\/img\/html.png",
+		"outputAbbreviatedPath": "\/img\/html.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/html2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1307,
+		"inputAbbreviatedPath": "\/img\/html2.png",
+		"outputAbbreviatedPath": "\/img\/html2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -294,6 +338,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/reflection.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1857,
+		"inputAbbreviatedPath": "\/img\/reflection.png",
+		"outputAbbreviatedPath": "\/img\/reflection.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sound.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -312,6 +367,17 @@
 		"initialSize": 10501,
 		"inputAbbreviatedPath": "\/img\/temp.jpg",
 		"outputAbbreviatedPath": "\/img\/temp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/times.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1778,
+		"inputAbbreviatedPath": "\/img\/times.png",
+		"outputAbbreviatedPath": "\/img\/times.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
