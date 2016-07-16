@@ -130,7 +130,7 @@ h1.featureblogs {
   text-align:center;
 }
 .featuCart {
-  font-size: 2em;
+  font-size: 1em;
   text-decoration: none;
 }
 .featuCart a:link {
@@ -145,4 +145,5 @@ h1.featureblogs {
 .cartslinks:hover{
  font-weight: 600;
  color:rgb(34, 8, 8);
+
 }
