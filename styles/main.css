@@ -1,6 +1,6 @@
 body {
-  font-family: Lato;
   font-family: Lato, Helvetica, sans-serif;
+  background-color: #544839;
 }
 .container {
   text-align: center;
@@ -35,13 +35,6 @@ a.six.columns.left {
 }
 a.six.columns.right {
     text-align: right;
-}
-.hero-image{
-  text-align: center;
-  background-color: rgb(224, 157, 79);
-  /*background-image: url("../img/blogbackground.png");*/
-  background-size: cover;
-
 }
 .three.columns {
   background: white;
@@ -112,13 +105,7 @@ li.dropdown {
   text-align: center;
 }
 .titleblog {
-  background: black;
   color:white;
-  width:30%;
-  opacity:0.4;
-  text-align:center;
-  margin-left:auto;
-  margin-right:auto;
 }
 .three.columns.blog {
   margin-top:5rem;
