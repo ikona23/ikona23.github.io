@@ -157,6 +157,7 @@ h1.featureblogs {
 footer {
   width:50rem;
   color:white;
+  display: block;
   background: rgb(43, 47, 78)
 }
 .twelve.columns.wrap {
@@ -172,4 +173,7 @@ article {
 }
 .twelve.columns.hea {
    margin-top:3em;
+}
+.twelve columns small {
+  width:60%;
 }

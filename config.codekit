@@ -47,6 +47,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/blog\/c3-meditation-process.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/c3-meditation-process.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/blog\/t2-html-css-dom-p1.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -356,6 +365,17 @@
 		"initialSize": 2761,
 		"inputAbbreviatedPath": "\/img\/sound.png",
 		"outputAbbreviatedPath": "\/img\/sound.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tara.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124615,
+		"inputAbbreviatedPath": "\/img\/tara.jpg",
+		"outputAbbreviatedPath": "\/img\/tara.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
