@@ -270,6 +270,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/meditation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1943,
+		"inputAbbreviatedPath": "\/img\/meditation.png",
+		"outputAbbreviatedPath": "\/img\/meditation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/menu.png": {
 		"fileType": 32768,
 		"ignore": 0,
