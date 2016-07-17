@@ -164,3 +164,6 @@ footer {
   box-shadow: 0 0 20px 7px rgba(0,0,0,0.075);
   background-color: white;
 }
+.scale-with-grid-mob {
+  width:60%;
+}
