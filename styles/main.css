@@ -9,6 +9,9 @@ body {
 hr {
   width:40%;
 }
+cite {
+    font-size: 0.7em;
+}
 .twelve.columns.wrap {
 margin-top: 4rem;
 }
@@ -182,7 +185,4 @@ article {
 }
 .portslinks {
   width:40%;
-}
-cite {
-    font-size: 0.7em;
 }
