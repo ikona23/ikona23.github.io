@@ -92,6 +92,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/blog\/t4-javascript-basics.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/t4-javascript-basics.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/ape.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -279,6 +288,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/js.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1503,
+		"inputAbbreviatedPath": "\/img\/js.png",
+		"outputAbbreviatedPath": "\/img\/js.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mail.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -407,6 +427,17 @@
 		"initialSize": 1170,
 		"inputAbbreviatedPath": "\/img\/present.png",
 		"outputAbbreviatedPath": "\/img\/present.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/progress.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2513,
+		"inputAbbreviatedPath": "\/img\/progress.png",
+		"outputAbbreviatedPath": "\/img\/progress.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
