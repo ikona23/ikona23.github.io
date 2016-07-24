@@ -9,6 +9,9 @@ body {
 hr {
   width:40%;
 }
+.twelve.columns.wrap {
+margin-top: 4rem;
+}
 .pklogo {
   width:6.5rem;
 }
@@ -179,4 +182,7 @@ article {
 }
 .portslinks {
   width:40%;
+}
+cite {
+    font-size: 0.7em;
 }
