@@ -7,17 +7,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link href="styles/main.css" rel="stylesheet" type="text/css">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+      <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+      </script>
   </head>
   <body>
+    <script>
+    /* Open the sidenav */
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+  }
 
+  /* Close/hide the sidenav */
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+    </script>
 <!-- Hero -->
 
     <div class ="section hero u-full-width">
       <header= "row top">
       <div class ="twelve columns top">
         <a class ="six columns" href= "#"> <img class ="pklogo" src="img/pklogo.png" ></a>
-        <a class ="six columns" href= "#"> <img class ="menu" src="img/menu.png" ></a>
+        <a class ="six columns" href= "#"> <img class ="menu" src="img/menu.png"  onclick="openNav()"></a>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Blog</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <!-- Use any element to open the sidenav -->
+
+
       </div>
+
+
       </header>
       <div class="twelve columns title">
         <h1 class= "maintitle">Dev blog</h1>
