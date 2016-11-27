@@ -9,115 +9,79 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   </head>
   <body>
+    <script>
+    /* Open the sidenav */
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "50%";
+  }
 
-    <body>
-
-    </body>
-
+  /* Close/hide the sidenav */
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+    </script>
 <!-- Hero -->
 
     <div class ="section hero u-full-width">
       <header= "row top">
       <div class ="twelve columns top">
         <a class ="six columns" href= "#"> <img class ="pklogo" src="img/pklogo.png" ></a>
-        <a class ="six columns" href= "#"> <img class ="menu" src="img/menu.png" ></a>
+        <a class ="six columns" href= "#"> <img class ="pklogo" src="img/menu.png"  onclick="openNav()"></a>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <!-- Use any element to open the sidenav -->
       </div>
+
+
       </header>
       <div class="twelve columns title">
         <h1 class= "maintitle">Dev blog</h1>
-        <a href= "https://github.com/ikona23" style="text-decoration:none;"> <h2 class= "title">CODE EVERY DAY</h2></a>
+        <a href= "https://github.com/ikona23" style="text-decoration:none;"> <h3 class= "title">Peter Kona</h3></a>
         <hr></hr>
-        <h3>dev academy kokako 2016</h3>
+        <h3>{ CODE EVERY DAY }</h3>
       </div>
     </div>
 
 <!-- Nav carts -->
 
 <div class= "container ">
-      <div class = "twelve columns">
-          <div class= "three columns bout">
-            <a href= "blog/blog.html" class= "portslinks" >
-              <img class ="scale-with-grid" src="img/cake.png">
-            <h3 class= "figs">blogs</h3>
-          </a>
-          </div>
-          <div class= "three columns bout">
-            <a href= "#" class= "portslinks" >
-              <img class ="scale-with-grid" src="img/mrgreen.png">
-              <h3 class= "figs">about</h3>
-            </a>
-          </div>
-          <div class= "three columns bout">
-            <a href= "#" class= "portslinks" >
-              <img class = "scale-with-grid"src="img/pmi.png">
-              <h3 class= "figs">portfolio</h3>
-            </a>
-          </div>
-          <div class= "three columns bout">
-            <a href= "#" class= "portslinks" >
-              <img class = "scale-with-grid"src="img/pmi.png">
-              <h3 class= "figs">contact</h3>
-            </a>
-          </div>
-        </div>
-        <br>
-        <br>
-        <hr><hr>
-
-<div class= "container ">
-  <h2 class="title">Weekly Blogs</h2>
+  <h2 class="title">Portfolio</h2>
 
       <div class = "twelve columns">
-          <div class= "three columns bout">
-            <a href= "c1-reflection-blog.html" class= "cartslinks" >
-              <img class ="scale-with-grid" src="img/pmi.png">
-            <h4 class= "figs">reflection</></h4></a>
-          </div>
-          <div class= "three columns bout">
-            <a href= "c1-time-and-habits-blog.html" class= "cartslinks" >
-              <img class ="scale-with-grid" src="../img/times.png">
-              <h4 class= "figs">time & habits</h4></a>
-          </div>
-          <div class= "three columns bout">
-            <a href= "c2-emotional-intelligence.html" class= "cartslinks" >
-              <img class = "scale-with-grid"src="../img/ei.png">
-              <h4 class= "figs">emo intelligence</h4></a>
-          </div>
-          <div class= "three columns bout">
-            <a href= "#" class= "cartslinks" >
-              <img class = "t2-html-css-dom-p1.html"src="../img/html.png">
-              <h4 class= "figs">html css dom 1</h4></a>
+        <div class= "container ">
+              <div class = "twelve columns">
+
+                  <div class= "four columns about">
+                    <a target="_blank" href= "http://regalburger.com" >
+                      <img class ="port" src="img/cake.png">
+                    <h5 class= "port2">regalburger.com</h5>
+                  </a>
+                  </div>
+
+                  <div class= "four columns about">
+                    <a target="_blank" href= "https://renomania.herokuapp.co.nz" >
+                      <img class ="port" src="img/circus.png">
+                    <h5 class= "port2">renomania</h5>
+                  </a>
+                  </div>
+
+                  <div class= "four columns about">
+                    <a target="_blank" href= "http://mrgreencarpets.co.nz"  >
+                      <img class ="port" src="img/mrgreen.png">
+                    <h5 class= "port2">mrgreencarpets.co.nz</h5>
+                  </a>
+                  </div>
+
+            </div>
           </div>
         </div>
       </div>
-<br>
-
-            <div class = "twelve columns">
-                <div class= "three columns bout">
-                  <a href= "t2-html-css-dom-p2.html" class= "cartslinks" >
-                    <img class ="scale-with-grid" src="../img/html2.png">
-                  <h4 class= "figs">html css dom 2</h4></a>
-                </div>
-                <div class= "three columns bout">
-                  <a href= "t3-design-to-web-blog.html" class= "cartslinks" >
-                    <img class ="scale-with-grid" src="../img/design.png">
-                    <h4 class= "figs">design your web</h4></a>
-                </div>
-                <div class= "three columns bout">
-                  <a href= "c3-meditation-process.html" class= "cartslinks" >
-                    <img class = "scale-with-grid"src="../img/meditation.png">
-                    <h4 class= "figs">meditation</h4></a>
-                </div>
-                <div class= "three columns bout">
-                  <a href= "#" class= "cartslinks" >
-                    <img class = "scale-with-grid"src="img/paperplane.png">
-                    <h3 class= "figs">upcoming</h3></a>
-                </div>
-              </div>
-
-
-  </div> <!-- endofthecontainer -->
-
   </body>
 
 

@@ -17,6 +17,7 @@ margin-top: 4rem;
 }
 .pklogo {
   width:6.5rem;
+  padding-top: 20px;
 }
 .title {
   text-align: center;
@@ -234,4 +235,8 @@ article {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+.port {
+  width:100%;
+  margin-top:20px;
 }
