@@ -12,6 +12,7 @@ hr {
 cite {
     font-size: 0.7em;
 }
+img.port a:link { text-decoration: none; }
 .twelve.columns.wrap {
 margin-top: 4rem;
 }
