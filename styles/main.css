@@ -9,6 +9,10 @@ body {
 hr {
   width:40%;
 }
+.regalTable {
+  background:none;
+  color:white;
+}
 cite {
     font-size: 0.7em;
 }
