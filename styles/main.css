@@ -16,6 +16,9 @@ hr {
 cite {
     font-size: 0.7em;
 }
+.footer {
+  text-align:center;
+}
 img.port a:link { text-decoration: none; }
 .twelve.columns.wrap {
 margin-top: 4rem;
