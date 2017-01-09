@@ -6,6 +6,12 @@ body {
 .container {
   text-align: center;
 }
+.aboutme{
+  background: white;
+  padding:20px;
+  font-size:1.4em;
+  opacity:0.8;
+}
 hr {
   width:40%;
 }
