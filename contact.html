@@ -55,9 +55,55 @@
 <h1 style="text-align:center;color:white;"> @ | ikona23@gmail.com | @</h1>
 <h1 style="text-align:center;color:white;"> ~ | 022 160 3710 | ~</h1>
 <h1 style="text-align:center;color:white;">24/7</h1>
+
+<h3 style="text-align:center;color:white;">Hey, flick me a message</h3>
+<form action="https://postmail.invotes.com/send"
+  method="post" id="email_form">
+
+  <input type="text" name="subject" placeholder="Subject" />
+  <textarea name="text" placeholder="Message"></textarea><br/>
+  <input type="hidden" name="access_token" value="seqah5gbpeb5pjb12vooplia" />
+    <!-- return urls can be fully qualified -OR-
+       start with / for root relative -OR-
+       start with . for url relative -->
+  <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+  <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+
+
+  <!-- set the reply-to address -->
+  <!-- <input type="text" name="reply_to"
+              placeholder="Your Email" /> -->
+
+  <!-- to append extra fields, use the extra_ prefix.
+      Entries will be appended to your message body. -->
+  <!-- <input type="text" name="extra_phone_number"
+              placeholder="Phone Number" /> -->
+
+  <!-- to split your message into 160 chars
+       for an sms gateway -->
+  <!-- <input type="hidden"
+              name="sms_format" value="true" /> -->
+
+  <input id="submit_form" type="submit" value="Send" />
+  <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+</form>
+<!-- optional, prevents the submit button from being pressed more than once -->
+<script>
+  var submitButton = document.getElementById("submit_form");
+  var form = document.getElementById("email_form");
+  form.addEventListener("submit", function (e) {
+      setTimeout(function() {
+          submitButton.value = "Sending...";
+          submitButton.disabled = true;
+      }, 1);
+  });
+</script>
           </div>
         </div>
   </div>
+  <footer class="twelve columns">
+    <p class='footer'>peterkona.com</p>
+  </footer>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

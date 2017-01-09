@@ -12,6 +12,16 @@ body {
   font-size:1.4em;
   opacity:0.8;
 }
+textarea {
+    width: 50%;
+}
+input[type="text"] {
+    width: 50%;
+}
+input#submit_form {
+    font-size: 20px;
+    color: white;
+}
 hr {
   width:40%;
 }
