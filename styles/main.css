@@ -72,7 +72,7 @@ a.six.columns.left {
 a.six.columns.right {
     text-align: right;
 }
-.three.columns.bout{
+.four.columns.bout{
   background: white;
   border: 3px solid rgb(46, 44, 44);
   height: 16em;
@@ -86,7 +86,7 @@ a.six.columns.right {
   background-color: rgba(245, 245, 245, 1);
 }
 
-.three.columns.bout:hover {
+.four.columns.bout:hover {
   transform: scale(1.1);
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -150,13 +150,13 @@ li.dropdown {
 .titleblog {
   color:white;
 }
-.three.columns.blog {
+.four.columns.blog {
   margin-top:5rem;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   height: 15em;
   transition: all .2s ease-in-out;
 }
-.three.columns:hover {
+.four.columns:hover {
   transform: scale(1.1);
 }
 h1.featureblogs {
