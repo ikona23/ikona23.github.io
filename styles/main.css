@@ -6,6 +6,20 @@ body {
 .container {
   text-align: center;
 }
+.half {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  display: inline-block;
+
+}
+.halfl {
+
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  display: inline-block;
+}
 .calendar {
     width: 100%;
     font-family: Helvetica, arial;
