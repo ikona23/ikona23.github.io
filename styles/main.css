@@ -3,7 +3,10 @@ body {
 	background-color: #544839;
 	background-image: url("../img/blogbackground.png");
 }
-
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
 .container {
 	text-align: center;
 }
