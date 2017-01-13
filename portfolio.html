@@ -1,114 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Peter Kona's Blog</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  </head>
-  <body>
-    <script>
-    /* Open the sidenav */
-  function openNav() {
-      document.getElementById("mySidenav").style.width = "50%";
-  }
+<head>
+	<title>Peter Kona's Blog</title>
+	<meta charset="UTF-8">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet">
+	<link href="styles/main.css" rel="stylesheet" type="text/css">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+</head>
+<body>
+	<script>
+	   /* Open the sidenav */
+	 function openNav() {
+	     document.getElementById("mySidenav").style.width = "50%";
+	 }
 
-  /* Close/hide the sidenav */
-  function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-  }
-    </script>
-<!-- Hero -->
+	 /* Close/hide the sidenav */
+	 function closeNav() {
+	     document.getElementById("mySidenav").style.width = "0";
+	 }
+	</script> <!-- Hero -->
+	<div class="section hero u-full-width">
+		<header row="">
+			<div class="twelve columns top">
+				<a class="six columns" href="#"><img class="pklogo" src="img/pklogo.png"></a> <a class="six columns" href="#"><img class="pklogo" onclick="openNav()" src="img/menu.png"></a>
+				<div class="sidenav" id="mySidenav">
+					<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a> <a href="index.html">Home</a> <a href="index.html#bout">About me</a> <a href="index.html#con">Contact</a>
+				</div><!-- Use any element to open the sidenav -->
+			</div>
+		</header>
+		<div class="twelve columns title">
+			<h1 class="maintitle">Dev blog</h1><a href="https://github.com/ikona23" style="text-decoration:none;">
+			<h3 class="title">Peter Kona</h3></a>
+			<hr>
+			<h3>{ CODE EVERY DAY }</h3>
+		</div>
+	</div><!-- Nav carts -->
+	<div class="container">
+		<h2 class="title">Portfolio</h2>
+		<hr>
+		<div class="twelve columns">
+			<div class="six columns">
+				<a href="http://regalburger.com" style="text-decoration: none" target="_blank"><img class="port" src="img/cake.png">
+				<h5 class="port2">Regalburger.com</h5></a>
+				<ul class="regalTable">
+					<li>Playing lead role in website development</li>
+					<li>Communication with graphic designers and project owner</li>
+					<li>Additionally developing catering order system (Ruby on rails)</li>
+					<li>Successfully developed and implemented admin</li>
+					<li>Setup VPN Server for hosting with DigitalOcean</li>
+				</ul>
+			</div>
+			<div class="six columns">
+				<a href="https://renomania.herokuapp.com" style="text-decoration: none" target="_blank"><img class="port" src="img/circus.png">
+				<h5 class="port2">Renomania</h5></a>
+				<ul class="regalTable">
+					<li>Actively involved in project planning and time management</li>
+					<li>Playing lead role in website development</li>
+					<li>Creating custom vector design</li>
+					<li>Test driven development</li>
+					<li>Successfully developed and implemented admin</li>
+					<li>Developed and implemented job ordering system</li>
+					<li>Setup VPN Server for hosting with heroku</li>
+				</ul>
+			</div>
+			<div class="twelve columns">
+				<div class="six columns">
+					<a href="http://mrgreencarpets.co.nz" style="text-decoration: none" target="_blank"><img class="port" src="img/mrgreen.png">
+					<h5 class="port2">Mrgreencarpets.co.nz</h5></a>
+					<ul class="regalTable">
+						<li>Playing lead role in website development</li>
+						<li>Communication with product owner</li>
+						<li>Implementing booking system</li>
+						<li>Implemented security and fight hackers</li>
+						<li>Setup VPN Server for hosting with DigitalOcean</li>
+					</ul>
+				</div>
+				<div class="six columns">
+					<a href="http://mrgreencarpets.co.nz" style="text-decoration: none" target="_blank"><img class="port" src="img/drft.png">
+					<h5 class="port2">Driftsuspension.co.nz</h5></a>
+					<ul class="regalTable">
+						<li>Playing lead role in website development</li>
+						<li>Communication with product owner</li>
+						<li>Implementing booking system</li>
+						<li>Implemented security and fight hackers</li>
+						<li>Setup VPN Server for hosting with DigitalOcean</li>
+					</ul>
+				</div>
+			</div>
+			<div class="twelve columns">
+				<div class="six columns">
+					<a href="http://mrgreencarpets.co.nz" style="text-decoration: none" target="_blank"><img class="port" src="img/draw.png">
+					<h5 class="port2">Draw-with-me.surge.sh</h5></a>
+					<ul class="regalTable">
+						<li>Playing lead role in website development</li>
+						<li>Communication with product owner</li>
+						<li>Implementing booking system</li>
+						<li>Implemented security and fight hackers</li>
+						<li>Setup VPN Server for hosting with DigitalOcean</li>
+					</ul>
+				</div>
+				<div class="six columns">
+					<a href="http://mrgreencarpets.co.nz" style="text-decoration: none" target="_blank"><img class="port" src="img/mrgreen.png">
+					<h5 class="port2">Mrgreencarpets.co.nz</h5></a>
+					<ul class="regalTable">
+						<li>Playing lead role in website development</li>
+						<li>Communication with product owner</li>
+						<li>Implementing booking system</li>
+						<li>Implemented security and fight hackers</li>
+						<li>Setup VPN Server for hosting with DigitalOcean</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="twelve columns">
+		<p class="footer">peterkona.com</p>
+	</footer>
+	<script>
+	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    <div class ="section hero u-full-width">
-      <header= "row top">
-      <div class ="twelve columns top">
-        <a class ="six columns" href= "#"> <img class ="pklogo" src="img/pklogo.png" ></a>
-        <a class ="six columns" href= "#"> <img class ="pklogo" src="img/menu.png"  onclick="openNav()"></a>
+	 ga('create', 'UA-88346093-1', 'auto');
+	 ga('send', 'pageview');
 
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="index.html">Home</a>
-          <a href="index.html#bout">About me</a>
-          <a href="index.html#con">Contact</a>
-        </div>
-
-        <!-- Use any element to open the sidenav -->
-      </div>
-
-      </header>
-      <div class="twelve columns title">
-        <h1 class= "maintitle">Dev blog</h1>
-        <a href= "https://github.com/ikona23" style="text-decoration:none;"> <h3 class= "title">Peter Kona</h3></a>
-        <hr></hr>
-        <h3>{ CODE EVERY DAY }</h3>
-      </div>
-    </div>
-
-<!-- Nav carts -->
-
-<div class= "container ">
-  <h2 class="title">Portfolio</h2>
-  <hr>
-      <div class = "twelve columns">
-                  <div class= "twelve columns">
-                    <a target="_blank" href= "http://regalburger.com" style="text-decoration: none" >
-                      <img class ="port" src="img/cake.png">
-                    <h5 class= "port2">Regalburger.com</h5>
-                  </a>
-                  <ul class = "regalTable">
-                     <li>Playing lead role in website development</li>
-                     <li>Communication with graphic designers and project owner</li>
-                     <li>Additionally developing catering order system (Ruby on rails)</li>
-                     <li>Successfully developed and implemented admin</li>
-                     <li>Setup VPN Server for hosting with DigitalOcean</li>
-                  </ul>
-                  </div>
-                  <div class= "twelve columns">
-                    <a target="_blank" href= "https://renomania.herokuapp.com" style="text-decoration: none">
-                      <img class ="port" src="img/circus.png">
-                    <h5 class= "port2">Renomania</h5>
-                  </a>
-                  <ul class = "regalTable">
-                     <li>Actively involved in project planning and time management</li>
-                     <li>Playing lead role in website development</li>
-                     <li>Creating custom vector design</li>
-                     <li>Test driven development</li>
-                     <li>Successfully developed and implemented admin</li>
-                     <li>Developed and implemented job ordering system</li>
-                     <li>Setup VPN Server for hosting with heroku</li>
-                  </ul>
-                  </div>
-                  <div class= "twelve columns">
-                    <a target="_blank" href= "http://mrgreencarpets.co.nz" style="text-decoration: none">
-                      <img class ="port" src="img/mrgreen.png">
-                    <h5 class= "port2">Mrgreencarpets.co.nz</h5>
-                  </a>
-                  <ul class="regalTable">
-                     <li>Playing lead role in website development</li>
-                     <li>Communication with product owner </li>
-                     <li>Implementing booking system</li>
-                     <li>Implemented security and fight hackers</li>
-                     <li>Setup VPN Server for hosting with DigitalOcean</li>
-                  </ul>
-                  </div>
-          </div>
-        </div>
-  </div>
-  <footer class="twelve columns">
-    <p class="footer">peterkona.com</p>
-  </footer>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-88346093-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+	</script>
 </body>
 </html>

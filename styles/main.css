@@ -7,6 +7,13 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
 }
+
+a.border {
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #ffffff;
+}
 .container {
 	text-align: center;
 }
