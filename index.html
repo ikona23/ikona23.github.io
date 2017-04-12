@@ -19,15 +19,8 @@
 
 	<body>
 <div id="hero">
-		<h2>{{message}}</h2>
 
-    <li v-for="color in colors" v-text="color"></li>
-    <hr>
-    <li v-for="name in names" v-text="name"></li>
-
-    <input id="input" type="text">
-    <button id="button">add name</button>
-    </div>
+    <h3>under the construction</h3>
 </div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.js"></script>
 
@@ -36,18 +29,25 @@
             var app = new Vue({
                 el: '#hero',
                 data: {
+                    newName:'',
                     message: 'hello from message',
                     inputMessage: "greeneyes",
                     colors: ['red', 'blue', 'orange'],
-                    names: ['nani','peter','kubo']
-                }
-            });
+                    names: ['nani','peter','kubo'],
+                    color: 'red'
+                },
 
-            document.querySelector('#button').addEventListener('click', () => {
-                let name = document.querySelector('#input').value;
-
-                app.names.push(name);
-            name.value='';
+                methods: {
+                    addName(){
+                        this.names.push(this.newName);
+                    },
+                    minName(){
+                        this.names.pop(this.newName);
+                    },
+                    colorX(){
+                        this.names.style(color = 'red')
+                    }
+                },
             });
 
 		</script>
