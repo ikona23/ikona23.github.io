@@ -12,7 +12,7 @@
         <title>Peter Kona's Blog</title>
         <meta charset="UTF-8">
         <meta name="description" content="Personal website porfolio">
-        <meta name="keywords" content="HTML,CSS,JavaScript,React,Rails,Developer,Website,Web developer, Wellington, New Zealand, Wordpress, NodeJs">
+        <meta name="keywords" content="HTML,CSS,JavaScript,Vue2,React,Rails,Developer,Website,Web developer, Wellington, New Zealand, Wordpress, NodeJs">
         <meta name="author" content="Peter Kona">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet">
@@ -46,20 +46,30 @@
         document.getElementById("mySidenav").style.width = "0";
     }
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.js"></script>
+
 <!-- Hero -->
 <div class="section hero u-full-width">
     <header row="">
         <div class="twelve columns top">
-            <a class="six columns" href="#"><img class="pklogo" src="img/pklogo.png"></a>
+            <a class="six columns" href="#">
+                <svg width="20%" height="30%" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;
+                     clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><g><text
+                        x="-1.37px" y="134.503px" style="font-family:'DKSushiBar-Regular', 'DK Sushi Bar';
+                        font-size:164.323px;">P</text><text x="68.204px" y="134.503px"
+                                                             style="font-family:'DKSushiBar-Regular', 'DK Sushi Bar';
+                                                             font-size:164.323px;">K</text></g></svg>
+            </a>
             <a class="six columns" href="#"><img class="pklogo" onclick="openNav()" src="img/menu.png"></a>
             <div class="sidenav" id="mySidenav"> <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a> <a href="#bout">About me</a> <a href="./portfolio.html">Portfolio</a> <a href="#con">Contact</a> </div>
             <!-- Use any element to open the sidenav -->
         </div>
     </header>
     <div class="twelve columns title">
-        <h1 class="maintitle">Portfolio</h1>
+        <h1 class="maintitle">{{title}}</h1>
         <a href="https://github.com/ikona23" style="text-decoration:none;">
-            <h3 class="title">Peter Kona</h3></a>
+            <h3 class="title">{{name}}</h3></a>
         <hr>
         <h3>{ CODE EVERY DAY }</h3> </div>
 </div>
@@ -165,6 +175,10 @@
             </script>
         </div>
     </div>
+    <div id="gal">
+{{title}}
+
+    </div>
 </div>
 <!-- endofthecontainer -->
 <footer class="twelve columns">
@@ -180,6 +194,28 @@
         <div class="container"> © 2017 peterkona.com </div>
     </div>
 </footer>
+
+<script>
+
+    new Vue({
+        el:".section",
+        data: {
+            title: "Portfolio",
+            name: "peter Kona",
+            cards: {
+                about: {
+                    image: 'img/ape.jpg',
+                    note: 'about me'
+                },
+                portfolio:{
+                    image:'img/behance.png',
+                    note: 'porfolio'
+                },
+            }
+        }
+
+    })
+</script>
 </body>
 
 </html>
