@@ -44,32 +44,90 @@
                 </h2>
             </div>
         </div>
+        </section>
         <hr>
-        <div class="columns center">
 
-            <div class="column is-one-third has-text-centered" v-for="x in cards">
-                <img v-bind:src="x.image">
-                <p>{{x.note}}</p>
-                <p>{{x.text}}</p>
+        <div class="columns center">
+            <div class="column is-fluid is-one-third has-text-centered" v-for="x in cards">
+                <div class="box">
+                    <img v-bind:src="x.image">
+                    <p>{{x.note}}</p>
+                    <p>{{x.text}}</p>
+                </div>
             </div>
         </div>
 
+    <div class="container">
 
-    </section>
+        <div class="columns center">
+            <div class="box">
+                <p class="centered">{{aboutMe.text}}</p>
+            </div>
+        </div>
 
+        <div class="columns center">
+            <div class="column is-fluid is-one-third card" v-for="x in portfolio">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img v-bind:src="x.image" alt="Image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img v-bind:src="x.imageLogo" alt="Image">
+                        </figure>
+                    </div>
+                    <br>
+                    <div class="media-content">
+                        <p class="title is-4">{{x.projectName}}</p>
+                        <p class="subtitle is-6">@{{name}}</p>
+                    </div>
+                </div>
+            </div>
+                <div class="content">
+                    <ul>
+                        <li v-for="item in regaltech"><a href="">{{item}}</a></li>
+                    </ul>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a>#css</a> <a>{{x.tech}}</a>
+                    <br>
+                    <small>11:09 PM - 1 Jan 2016</small>
+                </div>
+            `</div>
+
+        </div>
+    </div><!--eod container-->
 
     <div class="container is-fluid">
         <div class="notification">
             I would like to  <strong>cooperate</strong>: with you.
         </div>
-    <h1>hello</h1>
+    </div>
 
-</div>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Peter Kona</strong> by <a href="http://peterkona.com">Peter Kona</a>
+                </p>
+                <p>
+                    <a class="icon" href="https://github.com/ikona23">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    </div>
 <script>
 
     new Vue({
         el:"#root",
         data: {
+            regaltech:{css3:"http://regalburger.com/",html5:"html://regalburger.com"},
             title: "Portfolio",
             name: "peter Kona",
             cards: {
@@ -88,11 +146,41 @@
                     note: 'Contact',
                     text: "hello contact"
                 },
-                cards2:[
-                    {image:"img/ape.jpg",note:"about us"},
-                    {image:"https://vuejs.org//images/logo.png",note:"portfolio"},
-
-                ]
+            },
+            portfolio: {
+                regal: {
+                    image: './img/cake.png',
+                    imageLogo: './img/pklogo.png',
+                    note: 'Regalburger website',
+                    projectName: 'regalburger',
+                    text: "hello about",
+                    tech:["#css3","#html5","#rails"]
+                },
+                green:{
+                    image:'./img/mrgreen.png',
+                    note: 'mrgreencarepets',
+                    projectName: 'mrgreencarpets',
+                    text: "hello portfolio"
+                },
+                drift:{
+                    image:'./img/drft.png',
+                    note: 'Contact',
+                    text: "hello contact"
+                }
+            },
+            aboutMe: {
+                text:"Hi there, I am a full stack web developer who loves learning and building, particularly with " +
+                "other people.I used to be a teacher and then I moved into tech support. It was here that I found my " +
+                "love of coding and seeing how I could solve problems by building web apps designed for the user. Now " +
+                "that I have made a transition fully into web development I have loved being able to build things that " +
+                "people can use. I am looking for a developer role in which I can put these new skills to use and " +
+                "continue to grow."
+            }
+        },
+        methods:{
+            toStringM(){
+                console.log(this.portfolio.regal.tech.toString())
+                return this.portfolio.regal.tech.toString()
             }
         }
 
