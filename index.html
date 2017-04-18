@@ -47,15 +47,11 @@
         </section>
         <hr>
 
-        <div class="columns center">
-            <div class="column is-fluid is-one-third has-text-centered" v-for="x in cards">
-                <div class="box">
-                    <img v-bind:src="x.image">
-                    <p>{{x.note}}</p>
-                    <p>{{x.text}}</p>
-                </div>
-            </div>
+    <div class="columns center">
+        <portfolio/>
         </div>
+
+
 
     <div class="container">
 
@@ -96,9 +92,9 @@
                     <br>
                     <small>11:09 PM - 1 Jan 2016</small>
                 </div>
-            `</div>
-
+            </div>
         </div>
+
     </div><!--eod container-->
 
     <div class="container is-fluid">
@@ -186,6 +182,7 @@
 
     })
 </script>
+<script src="main.js"></script>
 </body>
 
 </html>
