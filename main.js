@@ -1,7 +1,9 @@
-Vue.component('portfolio', {
+Vue.component('port', {
 
-    template:'<li v-for="x in portfolio" v-text="x.note"> <h1>hello from {{x.note}}</h1></li>',
-
+    template:`<div>
+      <h1>hello</h1>
+      {{porfolio.regal}}
+    </div>`,
     data() {
         return {
             portfolio: {
