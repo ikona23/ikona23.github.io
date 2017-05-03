@@ -131,14 +131,11 @@
                         </div> <br>
                         <div class="media-content">
                             <p class="title is-4">{{x.projectName}}</p>
-                            <p class="subtitle is-6">@{{name}}</p>
+                            <p class="subtitle is-6">@{{x.note}}</p>
+                            <p class="subtitle is-6">@{{x.tech[0]}}  {{x.tech[1]}} {{x.tech[2]}}</p>
                         </div>
                     </div>
                 </div>
-                <div class="content">
-                    <ul>
-                        <li v-for="item in regaltech"><a href="">{{item}}</a></li>
-                    </ul> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a>@bulmaio</a>. <a>#css</a> <a>{{x.tech}}</a> <br> <small>11:09 PM - 1 Jan 2016</small> </div>
             </div>
         </div>
     </div>
@@ -189,24 +186,26 @@
                 regal: {
                     image: './img/cake.png',
                     imageLogo: './img/pklogo.png',
-                    note: 'Regalburger website',
+                    note: 'Regalburger',
                     projectName: 'regalburger',
                     text: "hello about",
-                    tech: ["#css3", "#html5", "#rails"]
+                    tech: ["#html5", "#css3","#rails"]
                 },
                 green: {
                     image: './img/mrgreen.png',
                     imageLogo: './img/pklogo.png',
-                    note: 'mrgreencarepets',
+                    note: 'Mrgreencarepets',
                     projectName: 'mrgreencarpets',
-                    text: "hello portfolio"
+                    text: "hello portfolio",
+                    tech: ["#html5","#css3", "#vue2"]
                 },
                 drift: {
-                    projectName: 'driftsuspension',
+                    projectName: 'Driftsuspension',
                     image: './img/drft.png',
                     imageLogo: './img/pklogo.png',
-                    note: 'Contact',
-                    text: "hello contact"
+                    note: 'Driftsuspension',
+                    text: "hello contact",
+                    tech: ["#html5", "#css3", "#vue2"]
                 }
             },
             aboutMe: {
@@ -219,6 +218,9 @@
             toStringM() {
                 console.log(this.portfolio.regal.tech.toString())
                 return this.portfolio.regal.tech.toString()
+            },
+            viewArray(){
+                console.log(this.portfolio.regal.tech)
             }
         }
     })
