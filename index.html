@@ -36,42 +36,42 @@
             My apologies, this website is under the <strong>construction</strong>.
         </div>
     </div>
-<nav class="nav has-shadow">
-    <div class="container">
-        <div class="nav-left">
-            <a class="nav-item" href="../index.html">
-                <h6>Peter Kona</h6>
-            </a>
-        </div>
+    <nav class="nav has-shadow">
+        <div class="container">
+            <div class="nav-left">
+                <a class="nav-item" href="../index.html">
+                    <h6>Peter Kona</h6>
+                </a>
+            </div>
             <span class="nav-toggle">
               <span></span>
               <span></span>
               <span></span>
             </span>
-        <div class="nav-right nav-menu">
-            <a class="nav-item is-tab is-active">
-                Home
-            </a>
-            <a class="nav-item is-tab">
-                About me
-            </a>
-            <a class="nav-item is-tab">
-                Portfolio
-            </a>
-            <a class="nav-item is-tab">
-                Contact
-            </a>
+            <div class="nav-right nav-menu">
+                <a class="nav-item is-tab is-active">
+                    Home
+                </a>
+                <a class="nav-item is-tab">
+                    About me
+                </a>
+                <a class="nav-item is-tab">
+                    Portfolio
+                </a>
+                <a class="nav-item is-tab">
+                    Contact
+                </a>
+            </div>
         </div>
-    </div>
-</nav>
-<div  class="container" id="root">
+    </nav>
+    <div  class="container" id="root">
 
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <div class="columns is-vcentered">
-                <div class="column is-5">
-                    <figure class="image is-2by2">
-                        <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-2by2">
+                            <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 669.6 504" style="enable-background:new 0 0 669.6 504;" xml:space="preserve">
 
 <path class="st0" d="M518.4,275.4c-5.5-8.6-11.5-15.4-18.2-20.6c-6.6-5.2-14-9.2-22-12.1c5.5-2.9,10.9-6.6,16.1-11
@@ -83,72 +83,72 @@
 	L518.4,275.4z M244.5,238.9h-55c-27.8,0-47.8-7.2-60.1-20.5c-12.2-13.3-18.3-32.1-18.3-55.9c0-10.5,1.6-20.3,4.7-28.9
 	c3.2-8.6,8-16.1,14.4-22.4c6.4-6.2,14.5-10.9,24.3-14.3c9.8-3.4,21.5-5,34.9-5h55V238.9z"/>
 </svg>
-                    </figure>
-                </div>
-                <div class="column is-6 is-offset-1">
-                    <h1 class="title is-2">
-                        Hi there I am a web developer
-                    </h1>
-                    <h2 class="subtitle is-4">
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <h1 class="title is-2">
+                            Hi there I am a web developer
+                        </h1>
+                        <h2 class="subtitle is-4">
 
-                    </h2>
-                    <br>
-                    <p class="has-text-centered">
-                        <a class="button is-large">
-                            Contact me
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="columns center">
-        <div class="column is-fluid is-one-half has-text-centered" v-for="x in cards">
-            <div class="box"> <img v-bind:src="x.image">
-                <p>{{x.note}}</p>
-                <p>{{x.text}}</p>
-            </div>
-        </div>
-    </div>
-    <hr>
-
-    <div class="container">
-        <div class="columns center">
-            <div class="box">
-                <p class="centered">{{aboutMe.text}}</p>
-            </div>
-        </div>
-
-        <div class="columns center">
-            <div class="column is-fluid is-one-third card" v-for="x in portfolio">
-                <div class="card-image">
-                    <figure class="image is-4by3"> <img v-bind:src="x.image" alt="Image"> </figure>
-                </div>
-
-                <div class="card-content">
-                    <div class="media">
-                        <div id="try" class="media-left">
-                            <figure class="image is-48x48"> <img v-bind:src="x.imageLogo" alt="Image"> </figure>
-                        </div> <br>
-                        <div class="media-content">
-                            <p class="title is-4">{{x.projectName}}</p>
-                            <p class="subtitle is-6">@{{x.note}}</p>
-                            <p class="subtitle is-6">@{{x.tech[0]}}  {{x.tech[1]}} {{x.tech[2]}}</p>
-                        </div>
+                        </h2>
+                        <br>
+                        <p class="has-text-centered">
+                            <a class="button is-large">
+                                Contact me
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
+
+
+        <div class="columns center">
+            <div class="column is-fluid is-one-half has-text-centered" v-for="x in cards">
+                <div class="box"> <img v-bind:src="x.image">
+                    <p>{{x.note}}</p>
+                    <p>{{x.text}}</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="container">
+            <div class="columns center">
+                <div class="box">
+                    <p class="centered">{{aboutMe.text}}</p>
+                </div>
+            </div>
+
+            <div class="columns center">
+                <div class="column is-fluid is-one-third card" v-for="x in portfolio">
+                    <div class="card-image">
+                        <figure class="image is-4by3"> <img v-bind:src="x.image" alt="Image"> </figure>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="media">
+                            <div id="try" class="media-left">
+                                <figure class="image is-48x48"> <img v-bind:src="x.imageLogo" alt="Image"> </figure>
+                            </div> <br>
+                            <div class="media-content">
+                                <p class="title is-4">{{x.projectName}}</p>
+                                <p class="subtitle is-6">@{{x.note}}</p>
+                                <p class="subtitle is-6">@{{x.tech[0]}}  {{x.tech[1]}} {{x.tech[2]}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--eod container-->
+        <div class="container is-fluid">
+            <div class="notification"> I would like to <strong>cooperate</strong>: with you. <br> Contact me: 022 160 3710</div>
+        </div>
     </div>
-    <!--eod container-->
-    <div class="container is-fluid">
-        <div class="notification"> I would like to <strong>cooperate</strong>: with you. </div>
-    </div>
-</div>
 </div>
 <footer class="footer">
     <div class="container">
@@ -208,16 +208,14 @@
                 drift: {
                     projectName: 'Driftsuspension',
                     image: './img/drft.png',
-                    imageLogo: './img/pklogo.png',
+                    imageLogo: './img/ds.png',
                     note: 'driftsuspension',
                     text: "hello contact",
-                    tech: ["#html5", "#css3", "#vue2"]
+                    tech: ["#html5", "#css3", "#react"]
                 }
             },
             aboutMe: {
-                text: "Hi there, I am a full stack web developer who loves learning and building, particularly with " + "other people.I used to be a teacher and then I moved into tech support. It was here that I found my " +
-                "love of coding and seeing how I could solve problems by building web apps designed for the user. Now " + "that I have made a transition fully into web development I have loved being able to build things that " +
-                "people can use. I am looking for a developer role in which I can put these new skills to use and " + "continue to grow."
+                text: "Hi there, I am a full stack web developer who loves learning and building, particularly with " + "other people. I am looking for a developer role in which I can put these new skills to use and " + "continue to grow."
             }
         },
         methods: {
@@ -226,7 +224,6 @@
                 return this.portfolio.regal.tech.toString()
             },
             tyAmp(){
-
             }
         }
     })
