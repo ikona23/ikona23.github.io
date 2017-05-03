@@ -103,6 +103,8 @@
         </div>
     </div>
 
+
+
     <div class="columns center">
         <div class="column is-fluid is-one-half has-text-centered" v-for="x in cards">
             <div class="box"> <img v-bind:src="x.image">
@@ -119,14 +121,16 @@
                 <p class="centered">{{aboutMe.text}}</p>
             </div>
         </div>
+
         <div class="columns center">
             <div class="column is-fluid is-one-third card" v-for="x in portfolio">
                 <div class="card-image">
                     <figure class="image is-4by3"> <img v-bind:src="x.image" alt="Image"> </figure>
                 </div>
+
                 <div class="card-content">
                     <div class="media">
-                        <div class="media-left">
+                        <div id="try" class="media-left">
                             <figure class="image is-48x48"> <img v-bind:src="x.imageLogo" alt="Image"> </figure>
                         </div> <br>
                         <div class="media-content">
@@ -138,6 +142,7 @@
                 </div>
             </div>
         </div>
+
     </div>
     <!--eod container-->
     <div class="container is-fluid">
@@ -159,6 +164,7 @@
     new Vue({
         el: "#root",
         data: {
+            active: false,
             regaltech: {
                 css3: "javascript",
                 html5: "rails"
@@ -185,7 +191,7 @@
             portfolio: {
                 regal: {
                     image: './img/cake.png',
-                    imageLogo: './img/pklogo.png',
+                    imageLogo: './img/rgl.png',
                     note: 'Regalburger',
                     projectName: 'regalburger',
                     text: "hello about",
@@ -193,7 +199,7 @@
                 },
                 green: {
                     image: './img/mrgreen.png',
-                    imageLogo: './img/pklogo.png',
+                    imageLogo: './img/gr300.png',
                     note: 'Mrgreencarepets',
                     projectName: 'mrgreencarpets',
                     text: "hello portfolio",
@@ -203,7 +209,7 @@
                     projectName: 'Driftsuspension',
                     image: './img/drft.png',
                     imageLogo: './img/pklogo.png',
-                    note: 'Driftsuspension',
+                    note: 'driftsuspension',
                     text: "hello contact",
                     tech: ["#html5", "#css3", "#vue2"]
                 }
@@ -219,8 +225,8 @@
                 console.log(this.portfolio.regal.tech.toString())
                 return this.portfolio.regal.tech.toString()
             },
-            viewArray(){
-                console.log(this.portfolio.regal.tech)
+            tyAmp(){
+
             }
         }
     })
