@@ -45,12 +45,9 @@
                         <li><a href="contact.html">Get in touch</a></li>
                     </ul>
                     <p class="social">
-                        <a href="#" data-animate-hover="pulse" class="external facebook">
-                            <i class="fa fa-facebook"></i></a>
-                        <a href="#" data-animate-hover="pulse" class="external gplus"><i class="fa fa-github"></i></a>
-                        <a href="#" data-animate-hover="pulse" class="external twitter"><i class="fa fa-codepen"></i></a>
-                        <a href="#" title="" class="external instagram"><i class="fa fa-instagram"></i></a>
-                        <a href="#" data-animate-hover="pulse" class="email"><i class="fa fa-envelope"></i></a>
+                        <a href="#" ><i class="fa fa-github"></i></a>
+                        <a href="#" ><i class="fa fa-codepen"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
                     </p>
                     <div class="copyright">
                         <p class="credit">&copy;2016 Peter Kona
@@ -71,7 +68,7 @@
                                 <div class="box-masonry-hover-text-header">
                                     <h4> <a href="detail.html">{{x.note}}</a></h4>
                                     <div class="box-masonry-desription">
-                                        <p>{{x.text}}</p>
+                                        <p>{{x.tech[0]}} {{x.tech[1]}} {{x.tech[2]}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +124,7 @@
                     note: 'Mrgreencarepets',
                     projectName: 'mrgreencarpets',
                     text: "hello portfolio",
-                    tech: ["#html5","#css3", "#vue2"]
+                    tech: ["#html5","#css3", "#wordpress"]
                 },
                 drift: {
                     projectName: 'Driftsuspension',

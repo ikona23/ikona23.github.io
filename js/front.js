@@ -65,7 +65,7 @@ function carousels() {
 	singleItem: true,
 	afterInit: ''
     });
-   
+
 }
 
 /* =========================================
