@@ -78,6 +78,7 @@
                 <div class="grid">
                     <div class="row" v-for="x in portfolio">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                            <a :href="x.url">{{ x.url }}</a>
                             <div class="box-masonry"><a href="detail.html" title="" class="box-masonry-image with-hover-overlay">
                                 <img v-bind:src="x.image" alt="" class="img-responsive"></a>
                                 <div class="box-masonry-hover-text-header">
@@ -131,6 +132,7 @@
                     note: 'Regalburger',
                     projectName: 'regalburger',
                     text: "hello about",
+                    url: 'http://regalburger.com',
                     tech: ["#html5", "#css3","#rails"]
                 },
                 green: {
@@ -139,6 +141,7 @@
                     note: 'Mrgreencarepets',
                     projectName: 'mrgreencarpets',
                     text: "hello portfolio",
+                    url: 'http://mrgreencarpets.co.nz',
                     tech: ["#html5","#css3", "#wordpress"]
                 },
                 drift: {
@@ -146,6 +149,7 @@
                     image: './img/drft.png',
                     imageLogo: './img/ds.png',
                     note: 'Driftsuspension',
+                    url: 'driftsuspension.co.nz',
                     text: "hello contact",
                     tech: ["#html5", "#css3", "#react"]
                 },
@@ -154,6 +158,7 @@
                     image: './img/circus.png',
                     imageLogo: './img/icobuilder.png',
                     note: 'Renomania',
+                    url: 'http://renomania.herokuapp.com',
                     text: "hello contact",
                     tech: ["#html5", "#css3", "#rails"]
                 },
@@ -187,9 +192,9 @@
                     imageLogo: './img/icobuilder.png',
                     note: 'Menu Maker',
                     text: "hello contact",
+                    url: 'http://peterkona.herokuapp.com',
                     tech: ["#html5", "#css3", "#rails"]
                 },
-
             },
             aboutMe: {
                 text: "Hi there, I am a full stack web developer who loves learning and building, particularly with " + "other people. I am looking for a developer role in which I can put these new skills to use and " + "continue to grow."
