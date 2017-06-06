@@ -82,7 +82,7 @@
                             <div class="box-masonry"><a href="detail.html" title="" class="box-masonry-image with-hover-overlay">
                                 <img v-bind:src="x.image" alt="" class="img-responsive"></a>
                                 <div class="box-masonry-hover-text-header">
-                                    <h4> <a href="detail.html">{{x.note}}</a></h4>
+                                    <h4> <a href="{{noteLink}}">{{x.note}}</a></h4>
                                     <div class="box-masonry-desription">
                                         <p>{{x.tech[0]}} {{x.tech[1]}} {{x.tech[2]}}</p>
                                     </div>
@@ -112,7 +112,8 @@
                 about: {
                     image: './img/boutus.png',
                     note: 'just a little bit',
-                    text: "about me"
+                    text: "about me",
+                    noteLink: 'regal.html'
                 },
                 portfolio: {
                     image: './img/portfolio.png',
@@ -130,6 +131,7 @@
                     image: './img/regal.png',
                     imageLogo: './img/rgl.jpg',
                     note: 'Regalburger',
+                    noteLink: 'regal.html',
                     projectName: 'regalburger',
                     text: "hello about",
                     url: 'http://regalburger.com',
@@ -139,6 +141,7 @@
                     image: './img/mrgreen.png',
                     imageLogo: './img/gr300.png',
                     note: 'Mrgreencarepets',
+                    noteLink: 'regal.html',
                     projectName: 'mrgreencarpets',
                     text: "hello portfolio",
                     url: 'http://mrgreencarpets.co.nz',
