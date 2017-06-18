@@ -79,8 +79,8 @@
                     <div class="row" v-for="x in portfolio">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
                             <a :href="x.url">{{x.note}}</a>
-                            <div class="box-masonry"><a href="detail.html" title="" class="box-masonry-image with-hover-overlay">
-                                <img v-bind:src="x.image" alt="" class="img-responsive"></a>
+                            <div class="box-masonry"><h4 title="" class="box-masonry-image with-hover-overlay">
+                                <img v-bind:src="x.image" alt="" class="img-responsive"></h4>
                                 <div class="box-masonry-hover-text-header">
                                     <!--<h4> <a href="{{x.noteLink}}">{{x.note}}</a></h4>-->
                                     <div class="box-masonry-desription">
@@ -89,7 +89,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
