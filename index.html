@@ -78,17 +78,18 @@
                 <div class="grid">
                     <div class="row" v-for="x in portfolio">
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                            <a :href="x.url">{{ x.url }}</a>
+                            <a :href="x.url">{{x.note}}</a>
                             <div class="box-masonry"><a href="detail.html" title="" class="box-masonry-image with-hover-overlay">
                                 <img v-bind:src="x.image" alt="" class="img-responsive"></a>
                                 <div class="box-masonry-hover-text-header">
-                                    <h4> <a href="{{noteLink}}">{{x.note}}</a></h4>
+                                    <!--<h4> <a href="{{x.noteLink}}">{{x.note}}</a></h4>-->
                                     <div class="box-masonry-desription">
+                                        <h4>Technology used</h4>
                                         <p>{{x.tech[0]}} {{x.tech[1]}} {{x.tech[2]}}</p>
                                     </div>
                                 </div>
                             </div>
-                            <p>{{x.note}}</p>
+
                         </div>
                     </div>
                 </div>
@@ -113,7 +114,7 @@
                     image: './img/boutus.png',
                     note: 'just a little bit',
                     text: "about me",
-                    noteLink: 'regal.html'
+                    noteLink: './regal.html'
                 },
                 portfolio: {
                     image: './img/portfolio.png',
@@ -140,7 +141,7 @@
                 green: {
                     image: './img/mrgreen.png',
                     imageLogo: './img/gr300.png',
-                    note: 'Mrgreencarepets',
+                    note: 'Mrgreencarpets',
                     noteLink: 'regal.html',
                     projectName: 'mrgreencarpets',
                     text: "hello portfolio",
