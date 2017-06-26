@@ -56,8 +56,6 @@
                     <p class="sidebar-p">I am based in Wellington. </p>
                     <ul class="sidebar-menu">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <!--<li><a href="./portfolio.html">About</a></li>-->
-                        <!--<li><a href="contact.html">Get in touch</a></li>-->
                     </ul>
                     <p class="social">
                         <a href="https://github.com/ikona23" ><i class="fa fa-github"></i></a>
@@ -80,7 +78,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 masonry-item">
                             <a :href="x.url">{{x.note}}</a>
                             <div class="box-masonry"><h4 title="" class="box-masonry-image with-hover-overlay">
-                                <img v-bind:src="x.image" alt="" class="img-responsive"></h4>
+                                <img v-bind:src="x.image" alt="description" class="img-responsive"></h4>
                                 <div class="box-masonry-hover-text-header">
                                     <!--<h4> <a href="{{x.noteLink}}">{{x.note}}</a></h4>-->
                                     <div class="box-masonry-desription">
@@ -93,7 +91,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
