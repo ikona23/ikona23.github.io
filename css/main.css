@@ -12,6 +12,9 @@
 	animation: dash 4s linear forwards;
 	fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:5;
 }
+body{
+	background-color: #333;
+}
 
 @-webkit-keyframes dash {
 	from {
