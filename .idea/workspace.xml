@@ -33,57 +33,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="166" column="53" selection-start-line="166" selection-start-column="53" selection-end-line="166" selection-end-column="53" />
+            <state relative-caret-position="240">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
+                <element signature="e#4608#9349#0" expanded="true" />
+                <element signature="e#4645#9111#0" expanded="true" />
                 <element signature="e#4697#4779#0" expanded="true" />
                 <element signature="e#4864#5453#0" expanded="true" />
                 <element signature="e#4889#5085#0" expanded="true" />
                 <element signature="e#5114#5263#0" expanded="true" />
                 <element signature="e#5290#5438#0" expanded="true" />
+                <element signature="e#5478#8767#0" expanded="true" />
                 <element signature="e#5503#5909#0" expanded="true" />
                 <element signature="e#5934#6363#0" expanded="true" />
                 <element signature="e#6388#6764#0" expanded="true" />
                 <element signature="e#6788#7179#0" expanded="true" />
-                <element signature="e#7613#7985#0" expanded="true" />
-                <element signature="e#8009#8331#0" expanded="true" />
-                <element signature="e#8355#8733#0" expanded="true" />
-                <element signature="e#8771#9082#0" expanded="true" />
-                <element signature="e#9111#9324#0" expanded="true" />
+                <element signature="e#7203#7590#0" expanded="true" />
+                <element signature="e#7613#8004#0" expanded="true" />
+                <element signature="e#8028#8350#0" expanded="true" />
+                <element signature="e#8374#8752#0" expanded="true" />
+                <element signature="e#8790#9101#0" expanded="true" />
+                <element signature="e#9130#9343#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="regal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regal.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2235">
-              <caret line="149" column="18" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="owl.carousel.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/owl.carousel.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1119" selection-start-line="0" selection-start-column="1119" selection-end-line="0" selection-end-column="1119" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -93,6 +67,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="owl.carousel.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -108,8 +92,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.blue.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.blue.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -128,11 +132,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.default.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.default.css">
+      <file leaf-file-name="bootstrap.min.css.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css.map">
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31245">
-              <caret line="2083" column="1" selection-start-line="2083" selection-start-column="1" selection-end-line="2083" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,8 +148,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -163,8 +170,8 @@
         <option value="$PROJECT_DIR$/css/style.default.css" />
         <option value="$PROJECT_DIR$/portfolio.html" />
         <option value="$PROJECT_DIR$/regal.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -175,8 +182,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="164" />
+    <option name="x" value="12" />
+    <option name="y" value="22" />
     <option name="width" value="1436" />
     <option name="height" value="878" />
   </component>
@@ -220,6 +227,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ikona23.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ikona23.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ikona23.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,15 +438,15 @@
       <workItem from="1497267209261" duration="425000" />
       <workItem from="1497791831195" duration="8254000" />
       <workItem from="1498434720559" duration="186000" />
-      <workItem from="1498434995936" duration="3602000" />
+      <workItem from="1498434995936" duration="3860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92724000" />
+    <option name="totallyTimeSpent" value="92982000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="164" width="1436" height="878" extended-state="0" />
+    <frame x="12" y="22" width="1436" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17718795" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -437,7 +458,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1990172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2936118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -467,54 +488,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#4697#4779#0" expanded="true" />
-            <element signature="e#4864#5453#0" expanded="true" />
-            <element signature="e#4889#5085#0" expanded="true" />
-            <element signature="e#5114#5263#0" expanded="true" />
-            <element signature="e#5290#5438#0" expanded="true" />
-            <element signature="e#5503#5909#0" expanded="true" />
-            <element signature="e#5934#6363#0" expanded="true" />
-            <element signature="e#6388#6764#0" expanded="true" />
-            <element signature="e#6788#7179#0" expanded="true" />
-            <element signature="e#7613#7985#0" expanded="true" />
-            <element signature="e#8009#8331#0" expanded="true" />
-            <element signature="e#8355#8733#0" expanded="true" />
-            <element signature="e#8771#9082#0" expanded="true" />
-            <element signature="e#9111#9324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/imagesloaded.pkgd.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="78" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="78" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/owl.carousel.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1119" selection-start-line="0" selection-start-column="1119" selection-end-line="0" selection-end-column="1119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/owl.theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -568,20 +541,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#4608#9349#0" expanded="true" />
+            <element signature="e#4645#9111#0" expanded="true" />
             <element signature="e#4697#4779#0" expanded="true" />
             <element signature="e#4864#5453#0" expanded="true" />
             <element signature="e#4889#5085#0" expanded="true" />
             <element signature="e#5114#5263#0" expanded="true" />
             <element signature="e#5290#5438#0" expanded="true" />
+            <element signature="e#5478#8767#0" expanded="true" />
             <element signature="e#5503#5909#0" expanded="true" />
             <element signature="e#5934#6363#0" expanded="true" />
             <element signature="e#6388#6764#0" expanded="true" />
             <element signature="e#6788#7179#0" expanded="true" />
-            <element signature="e#7613#7985#0" expanded="true" />
-            <element signature="e#8009#8331#0" expanded="true" />
-            <element signature="e#8355#8733#0" expanded="true" />
-            <element signature="e#8771#9082#0" expanded="true" />
-            <element signature="e#9111#9324#0" expanded="true" />
+            <element signature="e#7203#7590#0" expanded="true" />
+            <element signature="e#7613#8004#0" expanded="true" />
+            <element signature="e#8028#8350#0" expanded="true" />
+            <element signature="e#8374#8752#0" expanded="true" />
+            <element signature="e#8790#9101#0" expanded="true" />
+            <element signature="e#9130#9343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,20 +634,24 @@
         <state relative-caret-position="1680">
           <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
           <folding>
+            <element signature="e#4608#9349#0" expanded="true" />
+            <element signature="e#4645#9111#0" expanded="true" />
             <element signature="e#4697#4779#0" expanded="true" />
             <element signature="e#4864#5453#0" expanded="true" />
             <element signature="e#4889#5085#0" expanded="true" />
             <element signature="e#5114#5263#0" expanded="true" />
             <element signature="e#5290#5438#0" expanded="true" />
+            <element signature="e#5478#8767#0" expanded="true" />
             <element signature="e#5503#5909#0" expanded="true" />
             <element signature="e#5934#6363#0" expanded="true" />
             <element signature="e#6388#6764#0" expanded="true" />
             <element signature="e#6788#7179#0" expanded="true" />
-            <element signature="e#7613#7985#0" expanded="true" />
-            <element signature="e#8009#8331#0" expanded="true" />
-            <element signature="e#8355#8733#0" expanded="true" />
-            <element signature="e#8771#9082#0" expanded="true" />
-            <element signature="e#9111#9324#0" expanded="true" />
+            <element signature="e#7203#7590#0" expanded="true" />
+            <element signature="e#7613#8004#0" expanded="true" />
+            <element signature="e#8028#8350#0" expanded="true" />
+            <element signature="e#8374#8752#0" expanded="true" />
+            <element signature="e#8790#9101#0" expanded="true" />
+            <element signature="e#9130#9343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -753,20 +734,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#4608#9349#0" expanded="true" />
+            <element signature="e#4645#9111#0" expanded="true" />
             <element signature="e#4697#4779#0" expanded="true" />
             <element signature="e#4864#5453#0" expanded="true" />
             <element signature="e#4889#5085#0" expanded="true" />
             <element signature="e#5114#5263#0" expanded="true" />
             <element signature="e#5290#5438#0" expanded="true" />
+            <element signature="e#5478#8767#0" expanded="true" />
             <element signature="e#5503#5909#0" expanded="true" />
             <element signature="e#5934#6363#0" expanded="true" />
             <element signature="e#6388#6764#0" expanded="true" />
             <element signature="e#6788#7179#0" expanded="true" />
-            <element signature="e#7613#7985#0" expanded="true" />
-            <element signature="e#8009#8331#0" expanded="true" />
-            <element signature="e#8355#8733#0" expanded="true" />
-            <element signature="e#8771#9082#0" expanded="true" />
-            <element signature="e#9111#9324#0" expanded="true" />
+            <element signature="e#7203#7590#0" expanded="true" />
+            <element signature="e#7613#8004#0" expanded="true" />
+            <element signature="e#8028#8350#0" expanded="true" />
+            <element signature="e#8374#8752#0" expanded="true" />
+            <element signature="e#8790#9101#0" expanded="true" />
+            <element signature="e#9130#9343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -776,20 +761,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#4608#9349#0" expanded="true" />
+            <element signature="e#4645#9111#0" expanded="true" />
             <element signature="e#4697#4779#0" expanded="true" />
             <element signature="e#4864#5453#0" expanded="true" />
             <element signature="e#4889#5085#0" expanded="true" />
             <element signature="e#5114#5263#0" expanded="true" />
             <element signature="e#5290#5438#0" expanded="true" />
+            <element signature="e#5478#8767#0" expanded="true" />
             <element signature="e#5503#5909#0" expanded="true" />
             <element signature="e#5934#6363#0" expanded="true" />
             <element signature="e#6388#6764#0" expanded="true" />
             <element signature="e#6788#7179#0" expanded="true" />
-            <element signature="e#7613#7985#0" expanded="true" />
-            <element signature="e#8009#8331#0" expanded="true" />
-            <element signature="e#8355#8733#0" expanded="true" />
-            <element signature="e#8771#9082#0" expanded="true" />
-            <element signature="e#9111#9324#0" expanded="true" />
+            <element signature="e#7203#7590#0" expanded="true" />
+            <element signature="e#7613#8004#0" expanded="true" />
+            <element signature="e#8028#8350#0" expanded="true" />
+            <element signature="e#8374#8752#0" expanded="true" />
+            <element signature="e#8790#9101#0" expanded="true" />
+            <element signature="e#9130#9343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -799,20 +788,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#4608#9349#0" expanded="true" />
+            <element signature="e#4645#9111#0" expanded="true" />
             <element signature="e#4697#4779#0" expanded="true" />
             <element signature="e#4864#5453#0" expanded="true" />
             <element signature="e#4889#5085#0" expanded="true" />
             <element signature="e#5114#5263#0" expanded="true" />
             <element signature="e#5290#5438#0" expanded="true" />
+            <element signature="e#5478#8767#0" expanded="true" />
             <element signature="e#5503#5909#0" expanded="true" />
             <element signature="e#5934#6363#0" expanded="true" />
             <element signature="e#6388#6764#0" expanded="true" />
             <element signature="e#6788#7179#0" expanded="true" />
-            <element signature="e#7613#7985#0" expanded="true" />
-            <element signature="e#8009#8331#0" expanded="true" />
-            <element signature="e#8355#8733#0" expanded="true" />
-            <element signature="e#8771#9082#0" expanded="true" />
-            <element signature="e#9111#9324#0" expanded="true" />
+            <element signature="e#7203#7590#0" expanded="true" />
+            <element signature="e#7613#8004#0" expanded="true" />
+            <element signature="e#8028#8350#0" expanded="true" />
+            <element signature="e#8374#8752#0" expanded="true" />
+            <element signature="e#8790#9101#0" expanded="true" />
+            <element signature="e#9130#9343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -822,20 +815,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#4608#9349#0" expanded="true" />
+            <element signature="e#4645#9111#0" expanded="true" />
             <element signature="e#4697#4779#0" expanded="true" />
             <element signature="e#4864#5453#0" expanded="true" />
             <element signature="e#4889#5085#0" expanded="true" />
             <element signature="e#5114#5263#0" expanded="true" />
             <element signature="e#5290#5438#0" expanded="true" />
+            <element signature="e#5478#8767#0" expanded="true" />
             <element signature="e#5503#5909#0" expanded="true" />
             <element signature="e#5934#6363#0" expanded="true" />
             <element signature="e#6388#6764#0" expanded="true" />
             <element signature="e#6788#7179#0" expanded="true" />
-            <element signature="e#7613#7985#0" expanded="true" />
-            <element signature="e#8009#8331#0" expanded="true" />
-            <element signature="e#8355#8733#0" expanded="true" />
-            <element signature="e#8771#9082#0" expanded="true" />
-            <element signature="e#9111#9324#0" expanded="true" />
+            <element signature="e#7203#7590#0" expanded="true" />
+            <element signature="e#7613#8004#0" expanded="true" />
+            <element signature="e#8028#8350#0" expanded="true" />
+            <element signature="e#8374#8752#0" expanded="true" />
+            <element signature="e#8790#9101#0" expanded="true" />
+            <element signature="e#9130#9343#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -913,26 +910,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/owl.theme.css">
+    <entry file="file://$PROJECT_DIR$/css/style.default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="31245">
+          <caret line="2083" column="1" selection-start-line="2083" selection-start-column="1" selection-end-line="2083" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/helper.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#4608#9349#0" expanded="true" />
+            <element signature="e#4645#9111#0" expanded="true" />
+            <element signature="e#4697#4779#0" expanded="true" />
+            <element signature="e#4864#5453#0" expanded="true" />
+            <element signature="e#4889#5085#0" expanded="true" />
+            <element signature="e#5114#5263#0" expanded="true" />
+            <element signature="e#5290#5438#0" expanded="true" />
+            <element signature="e#5478#8767#0" expanded="true" />
+            <element signature="e#5503#5909#0" expanded="true" />
+            <element signature="e#5934#6363#0" expanded="true" />
+            <element signature="e#6388#6764#0" expanded="true" />
+            <element signature="e#6788#7179#0" expanded="true" />
+            <element signature="e#7203#7590#0" expanded="true" />
+            <element signature="e#7613#8004#0" expanded="true" />
+            <element signature="e#8028#8350#0" expanded="true" />
+            <element signature="e#8374#8752#0" expanded="true" />
+            <element signature="e#8790#9101#0" expanded="true" />
+            <element signature="e#9130#9343#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -945,42 +961,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.default.css">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31245">
-          <caret line="2083" column="1" selection-start-line="2083" selection-start-column="1" selection-end-line="2083" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/helper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/owl.theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="166" column="53" selection-start-line="166" selection-start-column="53" selection-end-line="166" selection-end-column="53" />
-          <folding>
-            <element signature="e#4697#4779#0" expanded="true" />
-            <element signature="e#4864#5453#0" expanded="true" />
-            <element signature="e#4889#5085#0" expanded="true" />
-            <element signature="e#5114#5263#0" expanded="true" />
-            <element signature="e#5290#5438#0" expanded="true" />
-            <element signature="e#5503#5909#0" expanded="true" />
-            <element signature="e#5934#6363#0" expanded="true" />
-            <element signature="e#6388#6764#0" expanded="true" />
-            <element signature="e#6788#7179#0" expanded="true" />
-            <element signature="e#7613#7985#0" expanded="true" />
-            <element signature="e#8009#8331#0" expanded="true" />
-            <element signature="e#8355#8733#0" expanded="true" />
-            <element signature="e#8771#9082#0" expanded="true" />
-            <element signature="e#9111#9324#0" expanded="true" />
-          </folding>
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
