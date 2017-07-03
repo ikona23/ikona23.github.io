@@ -1,6 +1,7 @@
 html,
 body {
   overflow-x: hidden;
+  background: #21273a;
 }
 header {
   z-index: 1000;
@@ -368,9 +369,10 @@ SIDEBAR + RIGHT COLUMN
 }
 .content-column {
   padding-top: 40px;
+  background: #21273a;
 }
 .content-column.white-background {
-  background: #fff;
+  background: #343434;
   min-height: 100vh;
 }
 .grid {
@@ -2023,7 +2025,7 @@ a.text-primary:hover {
   color: #eb2364;
 }
 .bg-primary {
-  color: #fff;
+  color: #343434;
   background-color: #ef5285;
 }
 a.bg-primary:hover {
@@ -2100,7 +2102,7 @@ address {
   font-weight: 300;
 }
 .panel-primary .panel-title a:hover {
-  color: #fff;
+  color: #21273a;
   text-decoration: none;
 }
 a.badge:hover,
