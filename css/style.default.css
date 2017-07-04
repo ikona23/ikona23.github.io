@@ -4,10 +4,13 @@ body {
   background: #21273a;
 }
 #root {
-  background-color: #1e2437;
+  background: #21273a;
 }
 header {
   z-index: 1000;
+}
+.sidebar-heading a {
+  color:whitesmoke;
 }
 section {
   position: relative;
