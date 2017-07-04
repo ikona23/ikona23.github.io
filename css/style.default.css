@@ -3,6 +3,9 @@ body {
   overflow-x: hidden;
   background: #21273a;
 }
+#root {
+  background-color: #1e2437;
+}
 header {
   z-index: 1000;
 }

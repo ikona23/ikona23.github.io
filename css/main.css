@@ -3,6 +3,7 @@
 	background: black;
 }
 
+.body
 #logo:hover .st0{
 	fill: #ff704f;
 	transition: .9s;
