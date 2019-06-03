@@ -100,11 +100,12 @@
                             <div class="box-masonry"><h4 title="" class="box-masonry-image with-hover-overlay">
                                 <img v-bind:src="x.image" alt="description" class="img-responsive well"></h4>
                                 <div class="box-masonry-hover-text-header">
-                                    <!--<h4> <a href="{{x.noteLink}}">{{x.note}}</a></h4>-->
+                                    <a :href="x.url"><!--<h4> <a href="{{x.noteLink}}">{{x.note}}</a></h4>-->
                                     <div class="box-masonry-desription">
                                         <p>Technology used</p>
                                         <p>{{x.tech[0]}} {{x.tech[1]}} {{x.tech[2]}} {{x.tech[3]}} {{x.tech[4]}}</p>
                                     </div>
+                                </a>
                                 </div>
                             </div>
                             <br>
