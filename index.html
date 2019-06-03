@@ -91,9 +91,9 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
-    </div>
-    </div>
-    </div>
+         </div>
+             </div>
+                </div>
                     <div class="row" v-for="x in portfolio">
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 masonry-item ">
                             <a :href="x.url">{{x.note}}</a>
@@ -157,8 +157,9 @@
                     noteLink: 'regal.html',
                     projectName: 'Regalburger',
                     text: "Catering website built with Ruby on Rails, with an admin login and notification system",
-                    url: 'http://188.166.63.105/',
-                    tech: ["#html5","#css3","#javascript","#rails", "#postgreSql"]
+                    url: 'https://github.com/ikona23/burger',
+                    tech: ["#html5","#css3","#javascript","#rails", "#postgreSql"],
+                    vis:'hidIt'
                 },
                 green: {
                     image: './img/mrgreen.jpeg',
@@ -262,7 +263,7 @@
                 },
             },
             aboutMe: {
-                text: "Hi there, I am a full stack web developer who loves learning and building, particularly with " + "other people. I am looking for a developer role in which I can put these new skills to use and " + "continue to grow.",
+                text: "Hi there, I am a front-end developer and graphic designer who loves learning and building, particularly with " + "other people. I am looking for a developer role in which I can put these new skills to use and " + "continue to grow.",
                 phNumber: "Contact me on 02/2160 3710"
             }
         },
@@ -273,6 +274,7 @@
             },
             tyAmp(){
             }
+   
         }
     })
 </script>
