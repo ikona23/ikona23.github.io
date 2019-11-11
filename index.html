@@ -64,7 +64,7 @@
                         <a href="https://www.instagram.com/peterkonart/" target="new"><i class="fa fa-instagram"></i></a>
                     </p>
                     <div class="copyright">
-                        <p class="credit">&copy;2016 Peter Kona</p>
+                        <p class="credit">&copy;2019 Peter Kona</p>
                     </div>
                 </div>
             </div>
@@ -96,11 +96,11 @@
                 </div>
                     <div class="row" v-for="x in portfolio">
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 masonry-item ">
-                            <a :href="x.url">{{x.note}}</a>
+                            <a :href="x.url" target="_blank">{{x.note}}</a>
                             <div class="box-masonry"><h4 title="" class="box-masonry-image with-hover-overlay">
                                 <img v-bind:src="x.image" alt="description" class="img-responsive well"></h4>
                                 <div class="box-masonry-hover-text-header">
-                                    <a :href="x.url"><!--<h4> <a href="{{x.noteLink}}">{{x.note}}</a></h4>-->
+                                    <a :href="x.url" target="_blank"><!--<h4> <a href="{{x.noteLink}}">{{x.note}}</a></h4>-->
                                     <div class="box-masonry-desription">
                                         <p>Technology used</p>
                                         <p>{{x.tech[0]}} {{x.tech[1]}} {{x.tech[2]}} {{x.tech[3]}} {{x.tech[4]}}</p>
@@ -150,17 +150,6 @@
                 },
             },
             portfolio: {
-                landingPage: {
-                    image: './img/mainsec.png',
-                    imageLogo: './img/security.png',
-                    note: 'Landing Page',
-                    noteLink: 'regal.html',
-                    projectName: 'landing page',
-                    text: "Catering website built with Ruby on Rails, with an admin login and notification system",
-                    url: 'https://codepen.io/ikona/full/mddMvvQ',
-                    tech: ["#html5","#css3","#javascript","#SVG", "#animeJs"],
-                    vis:'hidIt'
-                },
                 regal: {
                     image: './img/regal.jpeg',
                     imageLogo: './img/rgl.jpg',
@@ -180,17 +169,61 @@
                     projectName: 'Mrgreencarpets',
                     text: "Website built with Wordpress, it has an online booking system",
                     url: 'http://mrgreencarpets.co.nz',
-                    tech: ["#html5","#css3","#javascript","#wordpress"]
+                    tech: ["#html5","#css3","#javascript","#WORDPRESS"]
+                },
+                landingPage: {
+                    image: './img/mainsec.png',
+                    imageLogo: './img/security.png',
+                    note: 'CSS Animation',
+                    noteLink: 'regal.html',
+                    projectName: 'GreenSock Animation',
+                    text: "SVG CSS animation",
+                    url: 'https://codepen.io/ikona/full/mddMvvQ',
+                    tech: ["#html5","#css3","#javascript","#SVG", "#animeJs"],
+                    vis:'hidIt'
                 },
                 animation: {
                     image: './img/tshirt.png',
                     imageLogo: './img/maanTshirt.png',
-                    note: 'Landing Page',
+                    note: 'GreenSock Animation',
                     noteLink: 'regal.html',
-                    projectName: 'landing page',
-                    text: "Catering website built with Ruby on Rails, with an admin login and notification system",
+                    projectName: 'GSAP animation',
+                    text: "Animation with GreenSock",
                     url: 'https://codepen.io/ikona/full/vYBmEWG',
                     tech: ["#html5","#css3","#javascript","#SVG", "#GreenSock"],
+                    vis:'hidIt'
+                },
+                oxds: {
+                    image: './img/oxs.png',
+                    imageLogo: './img/oxs.png',
+                    note: 'Parallax',
+                    noteLink: 'regal.html',
+                    projectName: 'GreenSock Animation',
+                    text: "Parallax with CSS animation",
+                    url: 'https://codepen.io/ikona/full/mdbRYEL',
+                    tech: ["#html5","#css3","#javascript","#SVG"],
+                    vis:'hidIt'
+                },
+                infoPanel: {
+                    image: './img/text.png',
+                    imageLogo: './img/text.png',
+                    note: 'Info panel',
+                    noteLink: 'regal.html',
+                    projectName: 'CSS Animation',
+                    text: "Info panel - CSS animation",
+                    url: 'https://codepen.io/ikona/full/MWgJaLq',
+                    tech: ["#html5","#css3","#javascript"],
+                    vis:'hidIt'
+                },
+                icalc: {
+                    image: './img/calc.png',
+                    imageLogo: './img/calc.png',
+                    note: 'Loan calculator',
+                    noteLink: 'regal.html',
+                    projectName: 'CSS Animation',
+                    text: "Loan calculator",
+                    url: 'https://codepen.io/ikona/full/PoYzyMW',
+                    tech: ["#html5","#css3","#javascript"],
                     vis:'hidIt'
                 },
                 review: {
