@@ -64,48 +64,32 @@
                         <a href="https://www.instagram.com/peterkonart/" target="new"><i class="fa fa-instagram"></i></a>
                     </p>
                     <div class="copyright">
-                        <p class="credit">&copy;2019 Peter Kona</p>
+                        <p class="credit">&copy;<span id="year"></span> Peter Kona</p>
                     </div>
                 </div>
             </div>
+
+            <!--   *** MAIN ***-->
 
             <div class="col-xs-12 col-sm-8 col-md-9 content-column">
                 <div class="small-navbar visible-xs">
                     <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
                     <h1 class="small-navbar-heading"> <a style="color:#c7c7c7;" href="index.html">Peter Kona</a></h1>
                 </div>
-                <div class="grid">
 
-    <div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-<h1>modal</h1>
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Not all first interviews are a 30 minute in/out chat. I’ve had interviews go on for hours and once I was stuck there an entire afternoon basically doing a surprise exam.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-         </div>
-             </div>
-                </div>
+                <div class="grid">
                     <div class="row" v-for="x in portfolio">
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 masonry-item ">
+                        <div class="col-xs-12 col-lg-3  col-md-3 col-sm-6  masonry-item ">
                             <a :href="x.url" target="_blank">{{x.note}}</a>
                             <div class="box-masonry"><h4 title="" class="box-masonry-image with-hover-overlay">
                                 <img v-bind:src="x.image" alt="description" class="img-responsive well"></h4>
                                 <div class="box-masonry-hover-text-header">
-                                    <a :href="x.url" target="_blank"><!--<h4> <a href="{{x.noteLink}}">{{x.note}}</a></h4>-->
+                                    <a :href="x.url" target="_blank">
                                     <div class="box-masonry-desription">
                                         <p>Technology used</p>
                                         <p>{{x.tech[0]}} {{x.tech[1]}} {{x.tech[2]}} {{x.tech[3]}} {{x.tech[4]}}</p>
                                     </div>
-                                </a>
+                                    </a>
                                 </div>
                             </div>
                             <br>
@@ -116,8 +100,6 @@
             </div>
         </div>
     </div>
-
-
 </div>
 
 <script>
@@ -125,31 +107,8 @@
         el: "#root",
         data: {
             active: false,
-            regaltech: {
-                css3: "javascript",
-                html5: "rails"
-            },
-            title: "Portfolio",
-            name: "peter Kona",
-            cards: {
-                about: {
-                    image: './img/boutus.png',
-                    note: 'just a little bit',
-                    text: "about me",
-                    noteLink: './regal.html'
-                },
-                portfolio: {
-                    image: './img/portfolio.png',
-                    note: 'Porfolio',
-                    text: "check my work"
-                },
-                contact: {
-                    image: './img/paperplane.png',
-                    note: 'Contact',
-                    text: "get in touch"
-                },
-            },
             portfolio: {
+
                 regal: {
                     image: './img/regal.jpeg',
                     imageLogo: './img/rgl.jpg',
@@ -234,7 +193,8 @@
                     projectName: 'Booker',
                     text: "Website built with Rails, where user can log in create an book entry  and review any book.",
                     url: 'https://github.com/ikona23/bookReview',
-                    tech: ["#html5","#css3","#javascript","#rails","#mysql"]
+                    tech: ["#html5","#css3","#javascript","#rails","#mysql"],
+                    vis:'hidIt'
                 },
                 reno: {
                     projectName: 'Renomania',
@@ -243,7 +203,8 @@
                     note: 'Renomania',
                     url: 'http://renomania.herokuapp.com',
                     text: "Website built with Ruby on Rails, it has an authentication and ordering system ",
-                    tech: ["#html5","#css3","#javascript","#rails","#postgreSql",]
+                    tech: ["#html5","#css3","#javascript","#rails","#postgreSql"],
+                    vis:'hidIt'
                 },
                 port: {
                     projectName: 'Portfolio',
@@ -252,7 +213,8 @@
                     note: 'Portfolio',
                     url: 'http://peterkona.herokuapp.com',
                     text: "Portfolio built with Ruby on Rails & Svg animation",
-                    tech: ["#html5", "#css3","#javascript", "#rails"]
+                    tech: ["#html5", "#css3","#javascript", "#rails"],
+                    vis:'hidIt'
                 },
                 finapp: {
                     projectName: 'Finapp',
@@ -261,7 +223,8 @@
                     note: 'Finapp',
                     url: 'https://github.com/pmh-industries/finapp',
                     text: "Fin app with Login & personal dashboard",
-                    tech: ["#html5","#css3","#javascript","#vue2"]
+                    tech: ["#html5","#css3","#javascript","#vue2"],
+                    vis:'hidIt'
                 },
                 svg2: {
                     projectName: 'Svg Animation',
@@ -278,7 +241,8 @@
                     note: 'Svg  Logo Animation',
                     text: "Svg animation with pure CSS",
                     url: 'https://codepen.io/ikona/full/Avucj/',
-                    tech: ["#html5","#css3","#svg"]
+                    tech: ["#html5","#css3","#svg"],
+                    vis:'hidIt'
                 },
                 timebox: {
                     projectName: 'Pomodoro',
@@ -287,7 +251,8 @@
                     note: 'Pomodoro - timebox',
                     text: "Pomodoro - timebox your time",
                     url: ' https://codepen.io/ikona/pen/XRdYQm',
-                    tech: ["#html5","#css3","#javascript","#rails"]
+                    tech: ["#html5","#css3","#javascript","#rails"],
+                    vis:'hidIt'
                 },
                 SVGanimation: {
                     projectName: 'Url formatter',
@@ -296,7 +261,8 @@
                     note: 'URL formatter',
                     text: "Format Url to a little bit human format",
                     url: 'https://codepen.io/ikona/pen/WjZyRy',
-                    tech: ["#html5","#css3","#javascript","#rails"]
+                    tech: ["#html5","#css3","#javascript","#rails"],
+                    vis:'hidIt'
                 },
                 IssueTracker: {
                     projectName: 'Issue Tracker',
@@ -305,20 +271,55 @@
                     note: 'Issue tracker',
                     text: "Format Url to little bit human format",
                     url: 'http://tracker.surge.sh/',
-                    tech: ["#html5","#css3","#javascript","#vue2"]
+                    tech: ["#html5","#css3","#javascript","#vue2"],
+                    vis:'hidIt'
                 },
-                drawWithMe: {
+                a: {
+                    image: './img/regal.jpeg',
+                    image: './img/tshirt.png',
+                    note: 'Kreslici',
+                    noteLink: 'kreslici.html',
+                    projectName: 'Regalburger',
+                    text: "Catering website built with Ruby on Rails, with an admin login and notification system",
+                    url: 'https://www.kreslici.skr',
+                    tech: ["#html5","#css3","#javascript","#WORDPRESS"],
+                    vis:'hidIt'
+                },
+                b: {
+                    image: './img/tshirt.png',
+                    image: './img/tshirt.png',
+                    note: 'Driftsuspension',
+                    // noteLink: 'r.html',
+                    projectName: 'Driftsuspension',
+                    text: "Web-shop",
+                    url: 'http://mrgreencarpets.co.nz',
+                    tech: ["#html5","#css3","#javascript","#WORDPRESS"],
+                    vis:'hidIt'
+                },
+                c: {
                     projectName: "Draw with me",
                     image: './img/draw.jpeg',
                     imageLogo: './img/tracker.jpeg',
                     note: 'Draw with me',
                     text: "App for drawing with a friend online",
                     url: 'http://draw-with-me.surge.sh/',
-                    tech: ["#html5","#css3","#javascript","#socketsIO"]
+                    tech: ["#html5","#css3","#javascript","#socketsIO"],
+                    vis:'hidIt'
                 },
+                d: {
+                    image: './img/tshirt.png',
+                    imageLogo: './img/maanTshirt.png',
+                    note: 'GreenSock Animation',
+                    noteLink: 'regal.html',
+                    projectName: 'GSAP animation',
+                    text: "Animation with GreenSock",
+                    url: 'https://codepen.io/ikona/full/vYBmEWG',
+                    tech: ["#html5","#css3","#javascript","#SVG", "#GreenSock"],
+                    vis:'hidIt'
+                }
             },
             aboutMe: {
-                text: "Hi there, I am a front-end developer and graphic designer who loves learning and building, particularly with " + "other people. I am looking for a developer role in which I can put these new skills to use and " + "continue to grow.",
+                text: "Kia Ora, I create things - let's create together",
                 phNumber: "Contact me on 02/2160 3710"
             }
         },
@@ -332,6 +333,10 @@
    
         }
     })
+</script>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
