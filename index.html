@@ -75,7 +75,7 @@
 
                 <div class="grid">
                     <div class="row" v-for="x in portfolio">
-                        <div class="col-xs-12 col-lg-3  col-md-3 col-sm-6  masonry-item ">
+                        <div class="col-xs-12 col-lg-3  col-md-3 col-sm-6  masonry-item grow">
                             <a :href="x.url" target="_blank">{{x.note}}</a>
                             <div class="box-masonry"><h4 title="" class="box-masonry-image with-hover-overlay">
                                 <img v-bind:src="x.image" alt="description" class="img-responsive well"></h4>
@@ -118,7 +118,7 @@
                     image: './img/drift.png',
                     note: 'Driftsuspension',
                     projectName: 'Driftsuspension',
-                    text: "Web-shop made with Wordpress nad WooCommerce",
+                    text: "Wordpress/WooCommerce",
                     url: 'http://mrgreencarpets.co.nz',
                     tech: ["#html5","#css3","#javascript","#WORDPRESS"],
                     vis:'hidIt'
@@ -129,7 +129,7 @@
                     note: 'Regalburger',
                     noteLink: 'regal.html',
                     projectName: 'Regalburger',
-                    text: "Catering website built with Ruby on Rails, with an admin login and notification system",
+                    text: "Catering website built with RoR",
                     url: 'https://github.com/ikona23/burger',
                     tech: ["#html5","#css3","#javascript","#rails", "#postgreSql"],
                     vis:'hidIt'
@@ -140,7 +140,7 @@
                     note: 'Mrgreencarpets',
                     noteLink: 'regal.html',
                     projectName: 'Mrgreencarpets',
-                    text: "Website built with Wordpress, it has an online booking system",
+                    text: "Website with a booking system",
                     url: 'http://mrgreencarpets.co.nz',
                     tech: ["#html5","#css3","#javascript","#WORDPRESS"]
                 },
@@ -149,7 +149,7 @@
                     imageLogo: './img/security.png',
                     note: 'CSS Animation',
                     noteLink: 'regal.html',
-                    projectName: 'GreenSock Animation',
+                    projectName: 'GSAP Animation',
                     text: "SVG CSS animation",
                     url: 'https://codepen.io/ikona/full/mddMvvQ',
                     tech: ["#html5","#css3","#javascript","#SVG", "#animeJs"],
@@ -171,7 +171,7 @@
                     imageLogo: './img/oxs.png',
                     note: 'Parallax',
                     noteLink: 'regal.html',
-                    projectName: 'GreenSock Animation',
+                    projectName: 'GSAP Animation',
                     text: "Parallax with CSS animation",
                     url: 'https://codepen.io/ikona/full/mdbRYEL',
                     tech: ["#html5","#css3","#javascript","#SVG"],
@@ -181,7 +181,6 @@
                     image: './img/text.png',
                     imageLogo: './img/text.png',
                     note: 'Info panel',
-                    noteLink: 'regal.html',
                     projectName: 'CSS Animation',
                     text: "Info panel - CSS animation",
                     url: 'https://codepen.io/ikona/full/MWgJaLq',
@@ -192,7 +191,6 @@
                     image: './img/calc.png',
                     imageLogo: './img/calc.png',
                     note: 'Loan calculator',
-                    noteLink: 'regal.html',
                     projectName: 'CSS Animation',
                     text: "Loan calculator",
                     url: 'https://codepen.io/ikona/full/PoYzyMW',
@@ -203,9 +201,8 @@
                     image: './img/review.jpeg',
                     imageLogo: './img/gr300.png',
                     note: 'Book Reviewer',
-                    noteLink: 'regal.html',
                     projectName: 'Booker',
-                    text: "Website built with Rails, where user can log in create an book entry  and review any book.",
+                    text: "RoR book reviewer.",
                     url: 'https://github.com/ikona23/bookReview',
                     tech: ["#html5","#css3","#javascript","#rails","#mysql"],
                     vis:'hidIt'
@@ -213,10 +210,10 @@
                 reno: {
                     projectName: 'Renomania',
                     image: './img/reno.jpeg',
-                    imageLogo: './img/icobuilder.png',
                     note: 'Renomania',
+                    imageLogo: './img/icobuilder.png',
                     url: 'http://renomania.herokuapp.com',
-                    text: "Website built with Ruby on Rails, it has an authentication and ordering system ",
+                    text: "Anorther porfolio build with RoR",
                     tech: ["#html5","#css3","#javascript","#rails","#postgreSql"],
                     vis:'hidIt'
                 },
